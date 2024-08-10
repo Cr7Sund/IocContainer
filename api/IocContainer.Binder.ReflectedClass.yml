@@ -1,0 +1,612 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.ReflectedClass
+  commentId: T:IocContainer.Binder.ReflectedClass
+  id: ReflectedClass
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.ReflectedClass.Constructor
+  - IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+  - IocContainer.Binder.ReflectedClass.Fields
+  - IocContainer.Binder.ReflectedClass.PostConstructor
+  - IocContainer.Binder.ReflectedClass.PreGenerated
+  langs:
+  - csharp
+  - vb
+  name: ReflectedClass
+  nameWithType: ReflectedClass
+  fullName: IocContainer.Binder.ReflectedClass
+  type: Class
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ReflectedClass
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 6
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public class ReflectedClass
+    content.vb: Public Class ReflectedClass
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: IocContainer.Binder.ReflectedClass.PreGenerated
+  commentId: P:IocContainer.Binder.ReflectedClass.PreGenerated
+  id: PreGenerated
+  parent: IocContainer.Binder.ReflectedClass
+  langs:
+  - csharp
+  - vb
+  name: PreGenerated
+  nameWithType: ReflectedClass.PreGenerated
+  fullName: IocContainer.Binder.ReflectedClass.PreGenerated
+  type: Property
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: PreGenerated
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 8
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public bool PreGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PreGenerated As Boolean
+  overload: IocContainer.Binder.ReflectedClass.PreGenerated*
+- uid: IocContainer.Binder.ReflectedClass.Constructor
+  commentId: P:IocContainer.Binder.ReflectedClass.Constructor
+  id: Constructor
+  parent: IocContainer.Binder.ReflectedClass
+  langs:
+  - csharp
+  - vb
+  name: Constructor
+  nameWithType: ReflectedClass.Constructor
+  fullName: IocContainer.Binder.ReflectedClass.Constructor
+  type: Property
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: Constructor
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 9
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Get/set the preferred constructor
+  example: []
+  syntax:
+    content: public ConstructorInfo Constructor { get; set; }
+    parameters: []
+    return:
+      type: System.Reflection.ConstructorInfo
+    content.vb: Public Property Constructor As ConstructorInfo
+  overload: IocContainer.Binder.ReflectedClass.Constructor*
+- uid: IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+  commentId: P:IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+  id: ConstructorParameterCount
+  parent: IocContainer.Binder.ReflectedClass
+  langs:
+  - csharp
+  - vb
+  name: ConstructorParameterCount
+  nameWithType: ReflectedClass.ConstructorParameterCount
+  fullName: IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+  type: Property
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ConstructorParameterCount
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 10
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Get/set the preferred constructor's parameters length
+  example: []
+  syntax:
+    content: public int ConstructorParameterCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConstructorParameterCount As Integer
+  overload: IocContainer.Binder.ReflectedClass.ConstructorParameterCount*
+- uid: IocContainer.Binder.ReflectedClass.PostConstructor
+  commentId: P:IocContainer.Binder.ReflectedClass.PostConstructor
+  id: PostConstructor
+  parent: IocContainer.Binder.ReflectedClass
+  langs:
+  - csharp
+  - vb
+  name: PostConstructor
+  nameWithType: ReflectedClass.PostConstructor
+  fullName: IocContainer.Binder.ReflectedClass.PostConstructor
+  type: Property
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: PostConstructor
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 11
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Get/set any PostConstructors. This includes inherited PostConstructors.
+  example: []
+  syntax:
+    content: public MethodInfo PostConstructor { get; set; }
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo
+    content.vb: Public Property PostConstructor As MethodInfo
+  overload: IocContainer.Binder.ReflectedClass.PostConstructor*
+- uid: IocContainer.Binder.ReflectedClass.Fields
+  commentId: P:IocContainer.Binder.ReflectedClass.Fields
+  id: Fields
+  parent: IocContainer.Binder.ReflectedClass
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: ReflectedClass.Fields
+  fullName: IocContainer.Binder.ReflectedClass.Fields
+  type: Property
+  source:
+    remote:
+      path: Injector/Reflector/Impls/ReflectedClass.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: Fields
+    path: Injector/Reflector/Impls/ReflectedClass.cs
+    startLine: 12
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Get/set the list of field injections. This includes inherited fields.
+  example: []
+  syntax:
+    content: public Tuple<Type, object, FieldInfo>[] Fields { get; set; }
+    parameters: []
+    return:
+      type: System.Tuple{System.Type,System.Object,System.Reflection.FieldInfo}[]
+    content.vb: Public Property Fields As Tuple(Of Type, Object, FieldInfo)()
+  overload: IocContainer.Binder.ReflectedClass.Fields*
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IocContainer.Binder.ReflectedClass.PreGenerated*
+  commentId: Overload:IocContainer.Binder.ReflectedClass.PreGenerated
+  href: IocContainer.Binder.ReflectedClass.html#IocContainer_Binder_ReflectedClass_PreGenerated
+  name: PreGenerated
+  nameWithType: ReflectedClass.PreGenerated
+  fullName: IocContainer.Binder.ReflectedClass.PreGenerated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IocContainer.Binder.ReflectedClass.Constructor*
+  commentId: Overload:IocContainer.Binder.ReflectedClass.Constructor
+  href: IocContainer.Binder.ReflectedClass.html#IocContainer_Binder_ReflectedClass_Constructor
+  name: Constructor
+  nameWithType: ReflectedClass.Constructor
+  fullName: IocContainer.Binder.ReflectedClass.Constructor
+- uid: System.Reflection.ConstructorInfo
+  commentId: T:System.Reflection.ConstructorInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.constructorinfo
+  name: ConstructorInfo
+  nameWithType: ConstructorInfo
+  fullName: System.Reflection.ConstructorInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: IocContainer.Binder.ReflectedClass.ConstructorParameterCount*
+  commentId: Overload:IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+  href: IocContainer.Binder.ReflectedClass.html#IocContainer_Binder_ReflectedClass_ConstructorParameterCount
+  name: ConstructorParameterCount
+  nameWithType: ReflectedClass.ConstructorParameterCount
+  fullName: IocContainer.Binder.ReflectedClass.ConstructorParameterCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IocContainer.Binder.ReflectedClass.PostConstructor*
+  commentId: Overload:IocContainer.Binder.ReflectedClass.PostConstructor
+  href: IocContainer.Binder.ReflectedClass.html#IocContainer_Binder_ReflectedClass_PostConstructor
+  name: PostConstructor
+  nameWithType: ReflectedClass.PostConstructor
+  fullName: IocContainer.Binder.ReflectedClass.PostConstructor
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.methodinfo
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: IocContainer.Binder.ReflectedClass.Fields*
+  commentId: Overload:IocContainer.Binder.ReflectedClass.Fields
+  href: IocContainer.Binder.ReflectedClass.html#IocContainer_Binder_ReflectedClass_Fields
+  name: Fields
+  nameWithType: ReflectedClass.Fields
+  fullName: IocContainer.Binder.ReflectedClass.Fields
+- uid: System.Tuple{System.Type,System.Object,System.Reflection.FieldInfo}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-3
+  name: Tuple<Type, object, FieldInfo>[]
+  nameWithType: Tuple<Type, object, FieldInfo>[]
+  fullName: System.Tuple<System.Type, object, System.Reflection.FieldInfo>[]
+  nameWithType.vb: Tuple(Of Type, Object, FieldInfo)()
+  fullName.vb: System.Tuple(Of System.Type, Object, System.Reflection.FieldInfo)()
+  name.vb: Tuple(Of Type, Object, FieldInfo)()
+  spec.csharp:
+  - uid: System.Tuple`3
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-3
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: '>'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Tuple`3
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: )
+  - name: (
+  - name: )

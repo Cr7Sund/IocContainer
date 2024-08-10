@@ -2,7 +2,8 @@ using Cr7Sund.Utility;
 using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class InjectionBinder : Binder, IInjectionBinder
+
+    internal class InjectionBinder : Binder, IInjectionBinder
     {
         public IInjector Injector { get; set; }
 
@@ -56,7 +57,7 @@ namespace IocContainer.Binder
             var binding = GetBinding(instance.GetType(), name);
             if (binding == null)
             {
-                throw new Exception($"{InjectionExceptionType.NULL_BINDING_RELEASE}: InjectionBinder has no binding for:\n\tkey: { instance.GetType() }\nname: {name}" );
+                throw new Exception($"{InjectionExceptionType.NULL_BINDING_RELEASE}: InjectionBinder has no binding for:\n\tkey: {instance.GetType()}\nname: {name}");
             }
 
             GetInjectorForBinding(binding).Destroy(instance);
@@ -113,7 +114,7 @@ namespace IocContainer.Binder
             var list = new List<Type>();
             foreach (var pair in _bindings)
             {
-                foreach (IBinding binding in pair.Value)
+                foreach (var binding in pair.Value)
                 {
                     AddUniqueTypeToSets(set, list, binding);
                 }

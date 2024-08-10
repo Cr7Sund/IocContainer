@@ -1,0 +1,72 @@
+{
+  "api/IocContainer.Binder.BinderExceptionType.html": {
+    "href": "api/IocContainer.Binder.BinderExceptionType.html",
+    "title": "Enum BinderExceptionType",
+    "keywords": "Enum BinderExceptionType Namespace IocContainer.Binder Assembly IocContainer.dll public enum BinderExceptionType Fields BINDING_LIMIT = 1 CONFLICT_IN_BINDER = 0"
+  },
+  "api/IocContainer.Binder.BindingConstraintType.html": {
+    "href": "api/IocContainer.Binder.BindingConstraintType.html",
+    "title": "Enum BindingConstraintType",
+    "keywords": "Enum BindingConstraintType Namespace IocContainer.Binder Assembly IocContainer.dll public enum BindingConstraintType Fields MANY = 1 ONE = 0 POOL = 2"
+  },
+  "api/IocContainer.Binder.ContextExceptionType.html": {
+    "href": "api/IocContainer.Binder.ContextExceptionType.html",
+    "title": "Enum ContextExceptionType",
+    "keywords": "Enum ContextExceptionType Namespace IocContainer.Binder Assembly IocContainer.dll public enum ContextExceptionType Fields DuplicateCrossContext = 0 try to assign duplicate cross context EmptyCrossContext = 1 there should be a cross context"
+  },
+  "api/IocContainer.Binder.IContext.html": {
+    "href": "api/IocContainer.Binder.IContext.html",
+    "title": "Interface IContext",
+    "keywords": "Interface IContext Namespace IocContainer.Binder Assembly IocContainer.dll Represents a context for managing instances and dependencies. public interface IContext : IDisposable, IInstanceProvider Inherited Members IDisposable.Dispose() IInstanceProvider.GetInstance<T>() IInstanceProvider.GetInstance(Type) Methods AddContext(IContext) Registers a new context to this one. void AddContext(IContext context) Parameters context IContext The context to add. BindCrossContextAndSingleton<TKey, TValue>() Binds a type as both a cross-context and singleton service. void BindCrossContextAndSingleton<TKey, TValue>() Type Parameters TKey The type of the key to associate with the service. TValue The type of the service instance. BindCrossContextAndSingleton<TKey, TValue>(object) Binds a type as both a cross-context and singleton service with a given name. void BindCrossContextAndSingleton<TKey, TValue>(object name) Parameters name object The name to associate with the service. Type Parameters TKey The type of the key to associate with the service. TValue The type of the service instance. BindInstanceAsCrossContext<TKey>(object) Binds an instance as a cross-context service. void BindInstanceAsCrossContext<TKey>(object value) Parameters value object The instance to bind. Type Parameters TKey The type of the key to associate with the instance. BindInstanceAsCrossContext<TKey>(object, object) Binds an instance as a cross-context service with a given name. void BindInstanceAsCrossContext<TKey>(object value, object name) Parameters value object The instance to bind. name object The name to associate with the binding. Type Parameters TKey The type of the key to associate with the instance. BindInstance<T>(object) Binds an instance to a specific type. void BindInstance<T>(object value) Parameters value object The instance to bind. Type Parameters T The type to bind the instance to. BindInstance<T>(object, string) Binds an instance to a specific type with a given name. void BindInstance<T>(object value, string name) Parameters value object The instance to bind. name string The name to associate with the binding. Type Parameters T The type to bind the instance to. BindSingleton<TKey, TValue>() Binds a type as a singleton service. void BindSingleton<TKey, TValue>() Type Parameters TKey The type of the key to associate with the singleton. TValue The type of the singleton instance. BindSingleton<TKey, TValue>(object) Binds a type as a singleton service with a given name. void BindSingleton<TKey, TValue>(object name) Parameters name object The name to associate with the singleton. Type Parameters TKey The type of the key to associate with the singleton. TValue The type of the singleton instance. Deject(object) Clears the injections from the provided instance. Note that only public fields will be uninjected, not constructor injections. void Deject(object target) Parameters target object The instance to clear injections from. Inject(object) Requests that the provided target be injected with dependencies. object Inject(object target) Parameters target object The target to inject dependencies into. Returns object The target with injected dependencies. RemoveComponents() Removes all components from this context. void RemoveComponents() RemoveContext(IContext) Removes a context from this one. void RemoveContext(IContext context) Parameters context IContext The context to remove. Unbind<T>(object) Unbinds a type or named instance from the context. void Unbind<T>(object name = null) Parameters name object The name associated with the binding to unbind. If null, unbinds all instances of the type. Type Parameters T The type to unbind."
+  },
+  "api/IocContainer.Binder.ICrossContext.html": {
+    "href": "api/IocContainer.Binder.ICrossContext.html",
+    "title": "Interface ICrossContext",
+    "keywords": "Interface ICrossContext Namespace IocContainer.Binder Assembly IocContainer.dll public interface ICrossContext : IContext, IDisposable, IInstanceProvider Inherited Members IContext.AddContext(IContext) IContext.RemoveContext(IContext) IContext.RemoveComponents() IContext.BindInstance<T>(object) IContext.BindInstance<T>(object, string) IContext.BindInstanceAsCrossContext<TKey>(object) IContext.BindInstanceAsCrossContext<TKey>(object, object) IContext.BindSingleton<TKey, TValue>() IContext.BindSingleton<TKey, TValue>(object) IContext.BindCrossContextAndSingleton<TKey, TValue>() IContext.BindCrossContextAndSingleton<TKey, TValue>(object) IContext.Unbind<T>(object) IContext.Inject(object) IContext.Deject(object) IDisposable.Dispose() IInstanceProvider.GetInstance<T>() IInstanceProvider.GetInstance(Type)"
+  },
+  "api/IocContainer.Binder.IInstanceProvider.html": {
+    "href": "api/IocContainer.Binder.IInstanceProvider.html",
+    "title": "Interface IInstanceProvider",
+    "keywords": "Interface IInstanceProvider Namespace IocContainer.Binder Assembly IocContainer.dll public interface IInstanceProvider Methods GetInstance(Type) Retrieve an Instance based on the key. ex. injectionBinder.Get(typeof(ISomeInterface)); object GetInstance(Type key) Parameters key Type Returns object GetInstance<T>() T GetInstance<T>() Returns T Type Parameters T"
+  },
+  "api/IocContainer.Binder.InjectionBindingType.html": {
+    "href": "api/IocContainer.Binder.InjectionBindingType.html",
+    "title": "Enum InjectionBindingType",
+    "keywords": "Enum InjectionBindingType Namespace IocContainer.Binder Assembly IocContainer.dll public enum InjectionBindingType Fields DEFAULT = 0 The binding provides a new instance every time POOL = 3 The binding provides a new instance every time from pool SINGLETON = 1 The binding always provides the same instance VALUE = 2 The binding always provides the same instance based on a provided value"
+  },
+  "api/IocContainer.Binder.InjectionExceptionType.html": {
+    "href": "api/IocContainer.Binder.InjectionExceptionType.html",
+    "title": "Enum InjectionExceptionType",
+    "keywords": "Enum InjectionExceptionType Namespace IocContainer.Binder Assembly IocContainer.dll public enum InjectionExceptionType Fields EXISTED_VALUE_INJECTION = 26 GET_NULL_BINDING_FACTORY = 13 ILLEGAL_BINDING_VALUE = 32 INJECT_DEPTH_LIMIT = 35 NONEMPTY_CONSTRUCTOR = 23 NOPOOL_CONSTRUCT = 24 NO_BINDER = 0 NO_BINDER_INJECT = 2 NO_BINDER_INSTANTIATE = 1 NO_BINDER_UnINJECT = 3 NO_FACTORY = 6 NO_FACTORY_INJECT = 8 NO_FACTORY_INSTANTIATE = 7 NO_REFLECTOR = 4 NO_REFLECTOR_UNINJECT = 5 NULL_BINDING_CREATE = 9 NULL_BINDING_GET_INJECT = 11 NULL_BINDING_RELEASE = 10 NULL_CONSTRUCTOR = 29 NULL_INJECTION_POINT = 28 NULL_INSTANTIATE = 30 NULL_INSTANTIATE_RESULT = 31 NULL_POOL = 33 NULL_REFLECTION = 14 NULL_REFLECTION_FIELDINJECT = 15 NULL_REFLECTION_INSTANTIATE = 16 NULL_REFLECTION_POSTINJECT = 17 NULL_RELEASE = 34 NULL_TARGET = 18 NULL_TARGET_FIELDINJECT = 19 NULL_TARGET_INJECT = 20 NULL_TARGET_POSTINJECT = 22 NULL_TARGET_UNINJECT = 21 NULL_VALUE_INJECTION = 25 RELEASE_NULL_BINDING = 12 TYPE_AS_VALUE_INJECTION = 27"
+  },
+  "api/IocContainer.Binder.ReflectedClass.html": {
+    "href": "api/IocContainer.Binder.ReflectedClass.html",
+    "title": "Class ReflectedClass",
+    "keywords": "Class ReflectedClass Namespace IocContainer.Binder Assembly IocContainer.dll public class ReflectedClass Inheritance object ReflectedClass Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Constructor Get/set the preferred constructor public ConstructorInfo Constructor { get; set; } Property Value ConstructorInfo ConstructorParameterCount Get/set the preferred constructor's parameters length public int ConstructorParameterCount { get; set; } Property Value int Fields Get/set the list of field injections. This includes inherited fields. public Tuple<Type, object, FieldInfo>[] Fields { get; set; } Property Value Tuple<Type, object, FieldInfo>[] PostConstructor Get/set any PostConstructors. This includes inherited PostConstructors. public MethodInfo PostConstructor { get; set; } Property Value MethodInfo PreGenerated public bool PreGenerated { get; set; } Property Value bool"
+  },
+  "api/IocContainer.Binder.ReflectionExceptionType.html": {
+    "href": "api/IocContainer.Binder.ReflectionExceptionType.html",
+    "title": "Enum ReflectionExceptionType",
+    "keywords": "Enum ReflectionExceptionType Namespace IocContainer.Binder Assembly IocContainer.dll public enum ReflectionExceptionType Fields CANNOT_INJECT_INTO_NONPUBLIC_SETTER = 1 CANNOT_POST_CONSTRUCTS = 2 CANNOT_REFLECT_INTERFACE = 0"
+  },
+  "api/IocContainer.Binder.html": {
+    "href": "api/IocContainer.Binder.html",
+    "title": "Namespace IocContainer.Binder",
+    "keywords": "Namespace IocContainer.Binder Interfaces IContext Represents a context for managing instances and dependencies. ICrossContext IInstanceProvider"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

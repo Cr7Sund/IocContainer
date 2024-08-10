@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public interface IBinding : IDisposable
+
+    internal interface IBinding : IDisposable
     {
         ///<summary> Get the binding's key </summary>
         ISemiBinding Key { get; }

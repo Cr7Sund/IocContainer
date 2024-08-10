@@ -2,7 +2,8 @@ using Cr7Sund.Utility;
 using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class InjectionBinding : Binding, IInjectionBinding
+
+    internal class InjectionBinding : Binding, IInjectionBinding
     {
 
 

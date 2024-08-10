@@ -1,0 +1,775 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.IContext
+  commentId: T:IocContainer.Binder.IContext
+  id: IContext
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  - IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  - IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  - IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  - IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  - IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  - IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  - IocContainer.Binder.IContext.BindSingleton``2
+  - IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  - IocContainer.Binder.IContext.Deject(System.Object)
+  - IocContainer.Binder.IContext.Inject(System.Object)
+  - IocContainer.Binder.IContext.RemoveComponents
+  - IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  - IocContainer.Binder.IContext.Unbind``1(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IContext
+  nameWithType: IContext
+  fullName: IocContainer.Binder.IContext
+  type: Interface
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: IContext
+    path: Container/Apis/IContext.cs
+    startLine: 8
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Represents a context for managing instances and dependencies.
+  example: []
+  syntax:
+    content: 'public interface IContext : IDisposable, IInstanceProvider'
+    content.vb: Public Interface IContext Inherits IDisposable, IInstanceProvider
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  - IocContainer.Binder.IInstanceProvider.GetInstance``1
+  - IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+- uid: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  commentId: M:IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  id: AddContext(IocContainer.Binder.IContext)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: AddContext(IContext)
+  nameWithType: IContext.AddContext(IContext)
+  fullName: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: AddContext
+    path: Container/Apis/IContext.cs
+    startLine: 14
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Registers a new context to this one.
+  example: []
+  syntax:
+    content: void AddContext(IContext context)
+    parameters:
+    - id: context
+      type: IocContainer.Binder.IContext
+      description: The context to add.
+    content.vb: Sub AddContext(context As IContext)
+  overload: IocContainer.Binder.IContext.AddContext*
+- uid: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  commentId: M:IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  id: RemoveContext(IocContainer.Binder.IContext)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: RemoveContext(IContext)
+  nameWithType: IContext.RemoveContext(IContext)
+  fullName: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: RemoveContext
+    path: Container/Apis/IContext.cs
+    startLine: 20
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Removes a context from this one.
+  example: []
+  syntax:
+    content: void RemoveContext(IContext context)
+    parameters:
+    - id: context
+      type: IocContainer.Binder.IContext
+      description: The context to remove.
+    content.vb: Sub RemoveContext(context As IContext)
+  overload: IocContainer.Binder.IContext.RemoveContext*
+- uid: IocContainer.Binder.IContext.RemoveComponents
+  commentId: M:IocContainer.Binder.IContext.RemoveComponents
+  id: RemoveComponents
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponents()
+  nameWithType: IContext.RemoveComponents()
+  fullName: IocContainer.Binder.IContext.RemoveComponents()
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: RemoveComponents
+    path: Container/Apis/IContext.cs
+    startLine: 25
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Removes all components from this context.
+  example: []
+  syntax:
+    content: void RemoveComponents()
+    content.vb: Sub RemoveComponents()
+  overload: IocContainer.Binder.IContext.RemoveComponents*
+- uid: IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  id: BindInstance``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindInstance<T>(object)
+  nameWithType: IContext.BindInstance<T>(object)
+  fullName: IocContainer.Binder.IContext.BindInstance<T>(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindInstance
+    path: Container/Apis/IContext.cs
+    startLine: 32
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds an instance to a specific type.
+  example: []
+  syntax:
+    content: void BindInstance<T>(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The instance to bind.
+    typeParameters:
+    - id: T
+      description: The type to bind the instance to.
+    content.vb: Sub BindInstance(Of T)(value As Object)
+  overload: IocContainer.Binder.IContext.BindInstance*
+  nameWithType.vb: IContext.BindInstance(Of T)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstance(Of T)(Object)
+  name.vb: BindInstance(Of T)(Object)
+- uid: IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  commentId: M:IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  id: BindInstance``1(System.Object,System.String)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindInstance<T>(object, string)
+  nameWithType: IContext.BindInstance<T>(object, string)
+  fullName: IocContainer.Binder.IContext.BindInstance<T>(object, string)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindInstance
+    path: Container/Apis/IContext.cs
+    startLine: 40
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds an instance to a specific type with a given name.
+  example: []
+  syntax:
+    content: void BindInstance<T>(object value, string name)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The instance to bind.
+    - id: name
+      type: System.String
+      description: The name to associate with the binding.
+    typeParameters:
+    - id: T
+      description: The type to bind the instance to.
+    content.vb: Sub BindInstance(Of T)(value As Object, name As String)
+  overload: IocContainer.Binder.IContext.BindInstance*
+  nameWithType.vb: IContext.BindInstance(Of T)(Object, String)
+  fullName.vb: IocContainer.Binder.IContext.BindInstance(Of T)(Object, String)
+  name.vb: BindInstance(Of T)(Object, String)
+- uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  id: BindInstanceAsCrossContext``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindInstanceAsCrossContext<TKey>(object)
+  nameWithType: IContext.BindInstanceAsCrossContext<TKey>(object)
+  fullName: IocContainer.Binder.IContext.BindInstanceAsCrossContext<TKey>(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindInstanceAsCrossContext
+    path: Container/Apis/IContext.cs
+    startLine: 47
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds an instance as a cross-context service.
+  example: []
+  syntax:
+    content: void BindInstanceAsCrossContext<TKey>(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The instance to bind.
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the instance.
+    content.vb: Sub BindInstanceAsCrossContext(Of TKey)(value As Object)
+  overload: IocContainer.Binder.IContext.BindInstanceAsCrossContext*
+  nameWithType.vb: IContext.BindInstanceAsCrossContext(Of TKey)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstanceAsCrossContext(Of TKey)(Object)
+  name.vb: BindInstanceAsCrossContext(Of TKey)(Object)
+- uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  id: BindInstanceAsCrossContext``1(System.Object,System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindInstanceAsCrossContext<TKey>(object, object)
+  nameWithType: IContext.BindInstanceAsCrossContext<TKey>(object, object)
+  fullName: IocContainer.Binder.IContext.BindInstanceAsCrossContext<TKey>(object, object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindInstanceAsCrossContext
+    path: Container/Apis/IContext.cs
+    startLine: 55
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds an instance as a cross-context service with a given name.
+  example: []
+  syntax:
+    content: void BindInstanceAsCrossContext<TKey>(object value, object name)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The instance to bind.
+    - id: name
+      type: System.Object
+      description: The name to associate with the binding.
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the instance.
+    content.vb: Sub BindInstanceAsCrossContext(Of TKey)(value As Object, name As Object)
+  overload: IocContainer.Binder.IContext.BindInstanceAsCrossContext*
+  nameWithType.vb: IContext.BindInstanceAsCrossContext(Of TKey)(Object, Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstanceAsCrossContext(Of TKey)(Object, Object)
+  name.vb: BindInstanceAsCrossContext(Of TKey)(Object, Object)
+- uid: IocContainer.Binder.IContext.BindSingleton``2
+  commentId: M:IocContainer.Binder.IContext.BindSingleton``2
+  id: BindSingleton``2
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindSingleton<TKey, TValue>()
+  nameWithType: IContext.BindSingleton<TKey, TValue>()
+  fullName: IocContainer.Binder.IContext.BindSingleton<TKey, TValue>()
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindSingleton
+    path: Container/Apis/IContext.cs
+    startLine: 62
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds a type as a singleton service.
+  example: []
+  syntax:
+    content: void BindSingleton<TKey, TValue>()
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the singleton.
+    - id: TValue
+      description: The type of the singleton instance.
+    content.vb: Sub BindSingleton(Of TKey, TValue)()
+  overload: IocContainer.Binder.IContext.BindSingleton*
+  nameWithType.vb: IContext.BindSingleton(Of TKey, TValue)()
+  fullName.vb: IocContainer.Binder.IContext.BindSingleton(Of TKey, TValue)()
+  name.vb: BindSingleton(Of TKey, TValue)()
+- uid: IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  id: BindSingleton``2(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindSingleton<TKey, TValue>(object)
+  nameWithType: IContext.BindSingleton<TKey, TValue>(object)
+  fullName: IocContainer.Binder.IContext.BindSingleton<TKey, TValue>(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindSingleton
+    path: Container/Apis/IContext.cs
+    startLine: 70
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds a type as a singleton service with a given name.
+  example: []
+  syntax:
+    content: void BindSingleton<TKey, TValue>(object name)
+    parameters:
+    - id: name
+      type: System.Object
+      description: The name to associate with the singleton.
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the singleton.
+    - id: TValue
+      description: The type of the singleton instance.
+    content.vb: Sub BindSingleton(Of TKey, TValue)(name As Object)
+  overload: IocContainer.Binder.IContext.BindSingleton*
+  nameWithType.vb: IContext.BindSingleton(Of TKey, TValue)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindSingleton(Of TKey, TValue)(Object)
+  name.vb: BindSingleton(Of TKey, TValue)(Object)
+- uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  commentId: M:IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  id: BindCrossContextAndSingleton``2
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindCrossContextAndSingleton<TKey, TValue>()
+  nameWithType: IContext.BindCrossContextAndSingleton<TKey, TValue>()
+  fullName: IocContainer.Binder.IContext.BindCrossContextAndSingleton<TKey, TValue>()
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindCrossContextAndSingleton
+    path: Container/Apis/IContext.cs
+    startLine: 77
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds a type as both a cross-context and singleton service.
+  example: []
+  syntax:
+    content: void BindCrossContextAndSingleton<TKey, TValue>()
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the service.
+    - id: TValue
+      description: The type of the service instance.
+    content.vb: Sub BindCrossContextAndSingleton(Of TKey, TValue)()
+  overload: IocContainer.Binder.IContext.BindCrossContextAndSingleton*
+  nameWithType.vb: IContext.BindCrossContextAndSingleton(Of TKey, TValue)()
+  fullName.vb: IocContainer.Binder.IContext.BindCrossContextAndSingleton(Of TKey, TValue)()
+  name.vb: BindCrossContextAndSingleton(Of TKey, TValue)()
+- uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  id: BindCrossContextAndSingleton``2(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: BindCrossContextAndSingleton<TKey, TValue>(object)
+  nameWithType: IContext.BindCrossContextAndSingleton<TKey, TValue>(object)
+  fullName: IocContainer.Binder.IContext.BindCrossContextAndSingleton<TKey, TValue>(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindCrossContextAndSingleton
+    path: Container/Apis/IContext.cs
+    startLine: 85
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Binds a type as both a cross-context and singleton service with a given name.
+  example: []
+  syntax:
+    content: void BindCrossContextAndSingleton<TKey, TValue>(object name)
+    parameters:
+    - id: name
+      type: System.Object
+      description: The name to associate with the service.
+    typeParameters:
+    - id: TKey
+      description: The type of the key to associate with the service.
+    - id: TValue
+      description: The type of the service instance.
+    content.vb: Sub BindCrossContextAndSingleton(Of TKey, TValue)(name As Object)
+  overload: IocContainer.Binder.IContext.BindCrossContextAndSingleton*
+  nameWithType.vb: IContext.BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+  name.vb: BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+- uid: IocContainer.Binder.IContext.Unbind``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Unbind``1(System.Object)
+  id: Unbind``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: Unbind<T>(object)
+  nameWithType: IContext.Unbind<T>(object)
+  fullName: IocContainer.Binder.IContext.Unbind<T>(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: Unbind
+    path: Container/Apis/IContext.cs
+    startLine: 92
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Unbinds a type or named instance from the context.
+  example: []
+  syntax:
+    content: void Unbind<T>(object name = null)
+    parameters:
+    - id: name
+      type: System.Object
+      description: The name associated with the binding to unbind. If <code>null</code>, unbinds all instances of the type.
+    typeParameters:
+    - id: T
+      description: The type to unbind.
+    content.vb: Sub Unbind(Of T)(name As Object = Nothing)
+  overload: IocContainer.Binder.IContext.Unbind*
+  nameWithType.vb: IContext.Unbind(Of T)(Object)
+  fullName.vb: IocContainer.Binder.IContext.Unbind(Of T)(Object)
+  name.vb: Unbind(Of T)(Object)
+- uid: IocContainer.Binder.IContext.Inject(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Inject(System.Object)
+  id: Inject(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: Inject(object)
+  nameWithType: IContext.Inject(object)
+  fullName: IocContainer.Binder.IContext.Inject(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: Inject
+    path: Container/Apis/IContext.cs
+    startLine: 99
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Requests that the provided target be injected with dependencies.
+  example: []
+  syntax:
+    content: object Inject(object target)
+    parameters:
+    - id: target
+      type: System.Object
+      description: The target to inject dependencies into.
+    return:
+      type: System.Object
+      description: The target with injected dependencies.
+    content.vb: Function Inject(target As Object) As Object
+  overload: IocContainer.Binder.IContext.Inject*
+  nameWithType.vb: IContext.Inject(Object)
+  fullName.vb: IocContainer.Binder.IContext.Inject(Object)
+  name.vb: Inject(Object)
+- uid: IocContainer.Binder.IContext.Deject(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Deject(System.Object)
+  id: Deject(System.Object)
+  parent: IocContainer.Binder.IContext
+  langs:
+  - csharp
+  - vb
+  name: Deject(object)
+  nameWithType: IContext.Deject(object)
+  fullName: IocContainer.Binder.IContext.Deject(object)
+  type: Method
+  source:
+    remote:
+      path: Container/Apis/IContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: Deject
+    path: Container/Apis/IContext.cs
+    startLine: 105
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: Clears the injections from the provided instance. Note that only public fields will be uninjected, not constructor injections.
+  example: []
+  syntax:
+    content: void Deject(object target)
+    parameters:
+    - id: target
+      type: System.Object
+      description: The instance to clear injections from.
+    content.vb: Sub Deject(target As Object)
+  overload: IocContainer.Binder.IContext.Deject*
+  nameWithType.vb: IContext.Deject(Object)
+  fullName.vb: IocContainer.Binder.IContext.Deject(Object)
+  name.vb: Deject(Object)
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance``1
+  parent: IocContainer.Binder.IInstanceProvider
+  href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  name: GetInstance<T>()
+  nameWithType: IInstanceProvider.GetInstance<T>()
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance<T>()
+  nameWithType.vb: IInstanceProvider.GetInstance(Of T)()
+  fullName.vb: IocContainer.Binder.IInstanceProvider.GetInstance(Of T)()
+  name.vb: GetInstance(Of T)()
+  spec.csharp:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  parent: IocContainer.Binder.IInstanceProvider
+  isExternal: true
+  href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  name: GetInstance(Type)
+  nameWithType: IInstanceProvider.GetInstance(Type)
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  spec.csharp:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: IocContainer.Binder.IInstanceProvider
+  commentId: T:IocContainer.Binder.IInstanceProvider
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IInstanceProvider.html
+  name: IInstanceProvider
+  nameWithType: IInstanceProvider
+  fullName: IocContainer.Binder.IInstanceProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IocContainer.Binder.IContext.AddContext*
+  commentId: Overload:IocContainer.Binder.IContext.AddContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_AddContext_IocContainer_Binder_IContext_
+  name: AddContext
+  nameWithType: IContext.AddContext
+  fullName: IocContainer.Binder.IContext.AddContext
+- uid: IocContainer.Binder.IContext
+  commentId: T:IocContainer.Binder.IContext
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IContext.html
+  name: IContext
+  nameWithType: IContext
+  fullName: IocContainer.Binder.IContext
+- uid: IocContainer.Binder.IContext.RemoveContext*
+  commentId: Overload:IocContainer.Binder.IContext.RemoveContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveContext_IocContainer_Binder_IContext_
+  name: RemoveContext
+  nameWithType: IContext.RemoveContext
+  fullName: IocContainer.Binder.IContext.RemoveContext
+- uid: IocContainer.Binder.IContext.RemoveComponents*
+  commentId: Overload:IocContainer.Binder.IContext.RemoveComponents
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveComponents
+  name: RemoveComponents
+  nameWithType: IContext.RemoveComponents
+  fullName: IocContainer.Binder.IContext.RemoveComponents
+- uid: IocContainer.Binder.IContext.BindInstance*
+  commentId: Overload:IocContainer.Binder.IContext.BindInstance
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_
+  name: BindInstance
+  nameWithType: IContext.BindInstance
+  fullName: IocContainer.Binder.IContext.BindInstance
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext*
+  commentId: Overload:IocContainer.Binder.IContext.BindInstanceAsCrossContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_
+  name: BindInstanceAsCrossContext
+  nameWithType: IContext.BindInstanceAsCrossContext
+  fullName: IocContainer.Binder.IContext.BindInstanceAsCrossContext
+- uid: IocContainer.Binder.IContext.BindSingleton*
+  commentId: Overload:IocContainer.Binder.IContext.BindSingleton
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2
+  name: BindSingleton
+  nameWithType: IContext.BindSingleton
+  fullName: IocContainer.Binder.IContext.BindSingleton
+- uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton*
+  commentId: Overload:IocContainer.Binder.IContext.BindCrossContextAndSingleton
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2
+  name: BindCrossContextAndSingleton
+  nameWithType: IContext.BindCrossContextAndSingleton
+  fullName: IocContainer.Binder.IContext.BindCrossContextAndSingleton
+- uid: IocContainer.Binder.IContext.Unbind*
+  commentId: Overload:IocContainer.Binder.IContext.Unbind
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Unbind__1_System_Object_
+  name: Unbind
+  nameWithType: IContext.Unbind
+  fullName: IocContainer.Binder.IContext.Unbind
+- uid: IocContainer.Binder.IContext.Inject*
+  commentId: Overload:IocContainer.Binder.IContext.Inject
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Inject_System_Object_
+  name: Inject
+  nameWithType: IContext.Inject
+  fullName: IocContainer.Binder.IContext.Inject
+- uid: IocContainer.Binder.IContext.Deject*
+  commentId: Overload:IocContainer.Binder.IContext.Deject
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Deject_System_Object_
+  name: Deject
+  nameWithType: IContext.Deject
+  fullName: IocContainer.Binder.IContext.Deject

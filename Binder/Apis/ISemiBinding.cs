@@ -1,7 +1,8 @@
 using Cr7Sund.Utility;
 namespace IocContainer.Binder
 {
-    public interface ISemiBinding : IManagedList
+
+    internal interface ISemiBinding : IManagedList
     {
         /// <summary>  Set or get the constraint.  </summary>
         BindingConstraintType Constraint { get; set; }
@@ -12,13 +13,12 @@ namespace IocContainer.Binder
         /// </summary>
         bool UniqueValue { get; set; }
         PoolInflationType InflationType { get; set; }
-        object SingleValue{get;}
-        
+        object SingleValue { get; }
+
         object this[int index] { get; set; }
 
 
         object[] Clone();
     }
-
 
 }

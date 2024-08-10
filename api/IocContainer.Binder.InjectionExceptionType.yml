@@ -1,0 +1,1053 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.InjectionExceptionType
+  commentId: T:IocContainer.Binder.InjectionExceptionType
+  id: InjectionExceptionType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.InjectionExceptionType.EXISTED_VALUE_INJECTION
+  - IocContainer.Binder.InjectionExceptionType.GET_NULL_BINDING_FACTORY
+  - IocContainer.Binder.InjectionExceptionType.ILLEGAL_BINDING_VALUE
+  - IocContainer.Binder.InjectionExceptionType.INJECT_DEPTH_LIMIT
+  - IocContainer.Binder.InjectionExceptionType.NONEMPTY_CONSTRUCTOR
+  - IocContainer.Binder.InjectionExceptionType.NOPOOL_CONSTRUCT
+  - IocContainer.Binder.InjectionExceptionType.NO_BINDER
+  - IocContainer.Binder.InjectionExceptionType.NO_BINDER_INJECT
+  - IocContainer.Binder.InjectionExceptionType.NO_BINDER_INSTANTIATE
+  - IocContainer.Binder.InjectionExceptionType.NO_BINDER_UnINJECT
+  - IocContainer.Binder.InjectionExceptionType.NO_FACTORY
+  - IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INJECT
+  - IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INSTANTIATE
+  - IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR
+  - IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR_UNINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_BINDING_CREATE
+  - IocContainer.Binder.InjectionExceptionType.NULL_BINDING_GET_INJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_BINDING_RELEASE
+  - IocContainer.Binder.InjectionExceptionType.NULL_CONSTRUCTOR
+  - IocContainer.Binder.InjectionExceptionType.NULL_INJECTION_POINT
+  - IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE
+  - IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE_RESULT
+  - IocContainer.Binder.InjectionExceptionType.NULL_POOL
+  - IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION
+  - IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_FIELDINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_INSTANTIATE
+  - IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_POSTINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_RELEASE
+  - IocContainer.Binder.InjectionExceptionType.NULL_TARGET
+  - IocContainer.Binder.InjectionExceptionType.NULL_TARGET_FIELDINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_TARGET_INJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_TARGET_POSTINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_TARGET_UNINJECT
+  - IocContainer.Binder.InjectionExceptionType.NULL_VALUE_INJECTION
+  - IocContainer.Binder.InjectionExceptionType.RELEASE_NULL_BINDING
+  - IocContainer.Binder.InjectionExceptionType.TYPE_AS_VALUE_INJECTION
+  langs:
+  - csharp
+  - vb
+  name: InjectionExceptionType
+  nameWithType: InjectionExceptionType
+  fullName: IocContainer.Binder.InjectionExceptionType
+  type: Enum
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: InjectionExceptionType
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 3
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum InjectionExceptionType
+    content.vb: Public Enum InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_BINDER
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_BINDER
+  id: NO_BINDER
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_BINDER
+  nameWithType: InjectionExceptionType.NO_BINDER
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_BINDER
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_BINDER
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 6
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NO_BINDER = 0
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_BINDER_INSTANTIATE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_BINDER_INSTANTIATE
+  id: NO_BINDER_INSTANTIATE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_BINDER_INSTANTIATE
+  nameWithType: InjectionExceptionType.NO_BINDER_INSTANTIATE
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_BINDER_INSTANTIATE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_BINDER_INSTANTIATE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 8
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NO_BINDER_INSTANTIATE = 1
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_BINDER_INJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_BINDER_INJECT
+  id: NO_BINDER_INJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_BINDER_INJECT
+  nameWithType: InjectionExceptionType.NO_BINDER_INJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_BINDER_INJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_BINDER_INJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 10
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NO_BINDER_INJECT = 2
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_BINDER_UnINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_BINDER_UnINJECT
+  id: NO_BINDER_UnINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_BINDER_UnINJECT
+  nameWithType: InjectionExceptionType.NO_BINDER_UnINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_BINDER_UnINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_BINDER_UnINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 12
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NO_BINDER_UnINJECT = 3
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR
+  id: NO_REFLECTOR
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_REFLECTOR
+  nameWithType: InjectionExceptionType.NO_REFLECTOR
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_REFLECTOR
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 14
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NO_REFLECTOR = 4
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR_UNINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR_UNINJECT
+  id: NO_REFLECTOR_UNINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_REFLECTOR_UNINJECT
+  nameWithType: InjectionExceptionType.NO_REFLECTOR_UNINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_REFLECTOR_UNINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_REFLECTOR_UNINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 16
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NO_REFLECTOR_UNINJECT = 5
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_FACTORY
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_FACTORY
+  id: NO_FACTORY
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_FACTORY
+  nameWithType: InjectionExceptionType.NO_FACTORY
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_FACTORY
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_FACTORY
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 18
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NO_FACTORY = 6
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INSTANTIATE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INSTANTIATE
+  id: NO_FACTORY_INSTANTIATE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_FACTORY_INSTANTIATE
+  nameWithType: InjectionExceptionType.NO_FACTORY_INSTANTIATE
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INSTANTIATE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_FACTORY_INSTANTIATE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 20
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NO_FACTORY_INSTANTIATE = 7
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INJECT
+  id: NO_FACTORY_INJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NO_FACTORY_INJECT
+  nameWithType: InjectionExceptionType.NO_FACTORY_INJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NO_FACTORY_INJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NO_FACTORY_INJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 22
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NO_FACTORY_INJECT = 8
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_CREATE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_BINDING_CREATE
+  id: NULL_BINDING_CREATE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_BINDING_CREATE
+  nameWithType: InjectionExceptionType.NULL_BINDING_CREATE
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_CREATE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_BINDING_CREATE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 24
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_BINDING_CREATE = 9
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_RELEASE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_BINDING_RELEASE
+  id: NULL_BINDING_RELEASE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_BINDING_RELEASE
+  nameWithType: InjectionExceptionType.NULL_BINDING_RELEASE
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_RELEASE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_BINDING_RELEASE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 26
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_BINDING_RELEASE = 10
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_GET_INJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_BINDING_GET_INJECT
+  id: NULL_BINDING_GET_INJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_BINDING_GET_INJECT
+  nameWithType: InjectionExceptionType.NULL_BINDING_GET_INJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_BINDING_GET_INJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_BINDING_GET_INJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 28
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_BINDING_GET_INJECT = 11
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.RELEASE_NULL_BINDING
+  commentId: F:IocContainer.Binder.InjectionExceptionType.RELEASE_NULL_BINDING
+  id: RELEASE_NULL_BINDING
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: RELEASE_NULL_BINDING
+  nameWithType: InjectionExceptionType.RELEASE_NULL_BINDING
+  fullName: IocContainer.Binder.InjectionExceptionType.RELEASE_NULL_BINDING
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: RELEASE_NULL_BINDING
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 37
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: RELEASE_NULL_BINDING = 12
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.GET_NULL_BINDING_FACTORY
+  commentId: F:IocContainer.Binder.InjectionExceptionType.GET_NULL_BINDING_FACTORY
+  id: GET_NULL_BINDING_FACTORY
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: GET_NULL_BINDING_FACTORY
+  nameWithType: InjectionExceptionType.GET_NULL_BINDING_FACTORY
+  fullName: IocContainer.Binder.InjectionExceptionType.GET_NULL_BINDING_FACTORY
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: GET_NULL_BINDING_FACTORY
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 39
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: GET_NULL_BINDING_FACTORY = 13
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION
+  id: NULL_REFLECTION
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_REFLECTION
+  nameWithType: InjectionExceptionType.NULL_REFLECTION
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_REFLECTION
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 41
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_REFLECTION = 14
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_FIELDINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_FIELDINJECT
+  id: NULL_REFLECTION_FIELDINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_REFLECTION_FIELDINJECT
+  nameWithType: InjectionExceptionType.NULL_REFLECTION_FIELDINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_FIELDINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_REFLECTION_FIELDINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 43
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_REFLECTION_FIELDINJECT = 15
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_INSTANTIATE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_INSTANTIATE
+  id: NULL_REFLECTION_INSTANTIATE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_REFLECTION_INSTANTIATE
+  nameWithType: InjectionExceptionType.NULL_REFLECTION_INSTANTIATE
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_INSTANTIATE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_REFLECTION_INSTANTIATE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 45
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_REFLECTION_INSTANTIATE = 16
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_POSTINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_POSTINJECT
+  id: NULL_REFLECTION_POSTINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_REFLECTION_POSTINJECT
+  nameWithType: InjectionExceptionType.NULL_REFLECTION_POSTINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_REFLECTION_POSTINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_REFLECTION_POSTINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 47
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_REFLECTION_POSTINJECT = 17
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_TARGET
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_TARGET
+  id: NULL_TARGET
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_TARGET
+  nameWithType: InjectionExceptionType.NULL_TARGET
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_TARGET
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_TARGET
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 49
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_TARGET = 18
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_FIELDINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_TARGET_FIELDINJECT
+  id: NULL_TARGET_FIELDINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_TARGET_FIELDINJECT
+  nameWithType: InjectionExceptionType.NULL_TARGET_FIELDINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_FIELDINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_TARGET_FIELDINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 51
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_TARGET_FIELDINJECT = 19
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_INJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_TARGET_INJECT
+  id: NULL_TARGET_INJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_TARGET_INJECT
+  nameWithType: InjectionExceptionType.NULL_TARGET_INJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_INJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_TARGET_INJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 53
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_TARGET_INJECT = 20
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_UNINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_TARGET_UNINJECT
+  id: NULL_TARGET_UNINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_TARGET_UNINJECT
+  nameWithType: InjectionExceptionType.NULL_TARGET_UNINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_UNINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_TARGET_UNINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 55
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_TARGET_UNINJECT = 21
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_POSTINJECT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_TARGET_POSTINJECT
+  id: NULL_TARGET_POSTINJECT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_TARGET_POSTINJECT
+  nameWithType: InjectionExceptionType.NULL_TARGET_POSTINJECT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_TARGET_POSTINJECT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_TARGET_POSTINJECT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 57
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_TARGET_POSTINJECT = 22
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NONEMPTY_CONSTRUCTOR
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NONEMPTY_CONSTRUCTOR
+  id: NONEMPTY_CONSTRUCTOR
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NONEMPTY_CONSTRUCTOR
+  nameWithType: InjectionExceptionType.NONEMPTY_CONSTRUCTOR
+  fullName: IocContainer.Binder.InjectionExceptionType.NONEMPTY_CONSTRUCTOR
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NONEMPTY_CONSTRUCTOR
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 59
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NONEMPTY_CONSTRUCTOR = 23
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NOPOOL_CONSTRUCT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NOPOOL_CONSTRUCT
+  id: NOPOOL_CONSTRUCT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NOPOOL_CONSTRUCT
+  nameWithType: InjectionExceptionType.NOPOOL_CONSTRUCT
+  fullName: IocContainer.Binder.InjectionExceptionType.NOPOOL_CONSTRUCT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NOPOOL_CONSTRUCT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 61
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NOPOOL_CONSTRUCT = 24
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_VALUE_INJECTION
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_VALUE_INJECTION
+  id: NULL_VALUE_INJECTION
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_VALUE_INJECTION
+  nameWithType: InjectionExceptionType.NULL_VALUE_INJECTION
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_VALUE_INJECTION
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_VALUE_INJECTION
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 63
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_VALUE_INJECTION = 25
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.EXISTED_VALUE_INJECTION
+  commentId: F:IocContainer.Binder.InjectionExceptionType.EXISTED_VALUE_INJECTION
+  id: EXISTED_VALUE_INJECTION
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: EXISTED_VALUE_INJECTION
+  nameWithType: InjectionExceptionType.EXISTED_VALUE_INJECTION
+  fullName: IocContainer.Binder.InjectionExceptionType.EXISTED_VALUE_INJECTION
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: EXISTED_VALUE_INJECTION
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 65
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: EXISTED_VALUE_INJECTION = 26
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.TYPE_AS_VALUE_INJECTION
+  commentId: F:IocContainer.Binder.InjectionExceptionType.TYPE_AS_VALUE_INJECTION
+  id: TYPE_AS_VALUE_INJECTION
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: TYPE_AS_VALUE_INJECTION
+  nameWithType: InjectionExceptionType.TYPE_AS_VALUE_INJECTION
+  fullName: IocContainer.Binder.InjectionExceptionType.TYPE_AS_VALUE_INJECTION
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: TYPE_AS_VALUE_INJECTION
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 67
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: TYPE_AS_VALUE_INJECTION = 27
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_INJECTION_POINT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_INJECTION_POINT
+  id: NULL_INJECTION_POINT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_INJECTION_POINT
+  nameWithType: InjectionExceptionType.NULL_INJECTION_POINT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_INJECTION_POINT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_INJECTION_POINT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 69
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_INJECTION_POINT = 28
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_CONSTRUCTOR
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_CONSTRUCTOR
+  id: NULL_CONSTRUCTOR
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_CONSTRUCTOR
+  nameWithType: InjectionExceptionType.NULL_CONSTRUCTOR
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_CONSTRUCTOR
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_CONSTRUCTOR
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 71
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_CONSTRUCTOR = 29
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE
+  id: NULL_INSTANTIATE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_INSTANTIATE
+  nameWithType: InjectionExceptionType.NULL_INSTANTIATE
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_INSTANTIATE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 74
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NULL_INSTANTIATE = 30
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE_RESULT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE_RESULT
+  id: NULL_INSTANTIATE_RESULT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_INSTANTIATE_RESULT
+  nameWithType: InjectionExceptionType.NULL_INSTANTIATE_RESULT
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_INSTANTIATE_RESULT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_INSTANTIATE_RESULT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 76
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NULL_INSTANTIATE_RESULT = 31
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.ILLEGAL_BINDING_VALUE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.ILLEGAL_BINDING_VALUE
+  id: ILLEGAL_BINDING_VALUE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: ILLEGAL_BINDING_VALUE
+  nameWithType: InjectionExceptionType.ILLEGAL_BINDING_VALUE
+  fullName: IocContainer.Binder.InjectionExceptionType.ILLEGAL_BINDING_VALUE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ILLEGAL_BINDING_VALUE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 78
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: ILLEGAL_BINDING_VALUE = 32
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_POOL
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_POOL
+  id: NULL_POOL
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_POOL
+  nameWithType: InjectionExceptionType.NULL_POOL
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_POOL
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_POOL
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 80
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: NULL_POOL = 33
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.NULL_RELEASE
+  commentId: F:IocContainer.Binder.InjectionExceptionType.NULL_RELEASE
+  id: NULL_RELEASE
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: NULL_RELEASE
+  nameWithType: InjectionExceptionType.NULL_RELEASE
+  fullName: IocContainer.Binder.InjectionExceptionType.NULL_RELEASE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: NULL_RELEASE
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 82
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: NULL_RELEASE = 34
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+- uid: IocContainer.Binder.InjectionExceptionType.INJECT_DEPTH_LIMIT
+  commentId: F:IocContainer.Binder.InjectionExceptionType.INJECT_DEPTH_LIMIT
+  id: INJECT_DEPTH_LIMIT
+  parent: IocContainer.Binder.InjectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: INJECT_DEPTH_LIMIT
+  nameWithType: InjectionExceptionType.INJECT_DEPTH_LIMIT
+  fullName: IocContainer.Binder.InjectionExceptionType.INJECT_DEPTH_LIMIT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/InjectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: INJECT_DEPTH_LIMIT
+    path: Injector/Apis/InjectionExceptionType.cs
+    startLine: 84
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: INJECT_DEPTH_LIMIT = 35
+    return:
+      type: IocContainer.Binder.InjectionExceptionType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.InjectionExceptionType
+  commentId: T:IocContainer.Binder.InjectionExceptionType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.InjectionExceptionType.html
+  name: InjectionExceptionType
+  nameWithType: InjectionExceptionType
+  fullName: IocContainer.Binder.InjectionExceptionType

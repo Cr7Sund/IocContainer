@@ -3,7 +3,8 @@ using System.Reflection;
 using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class ReflectedClass : IReflectedClass
+
+    internal class ReflectedClass : IReflectedClass
     {
         public bool PreGenerated { get; set; }
         public ConstructorInfo Constructor { get; set; }

@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public interface IInjector
+
+    internal interface IInjector
     {
 
         /// <summary>  Get/set an InjectorFactory.   </summary>

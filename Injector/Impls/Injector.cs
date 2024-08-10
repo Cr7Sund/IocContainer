@@ -5,14 +5,15 @@ using IocContainer.Binder;
 using Cr7Sund.Utility;
 namespace IocContainer.Binder
 {
-    public class Injector : IInjector
+
+    internal class Injector : IInjector
     {
 
         private static readonly IInjectorFactory _factory = new InjectorFactory();
         private int _depth;
         private const int MAX_DEPTH = 100;
 
-        public IPoolBinder PoolBinder { get;  }
+        public IPoolBinder PoolBinder { get; }
         public IInjectorFactory Factory { get; set; }
         public IInjectionBinder Binder { get; set; }
         public IReflectionBinder Reflector { get; set; }
@@ -210,7 +211,7 @@ namespace IocContainer.Binder
             if (condition)
             {
                 var sb = new StringBuilder();
-                sb.Append( $"ErrorCode: {errorCode}");
+                sb.Append($"ErrorCode: {errorCode}");
                 sb.Append($"\n\t\ttarget: {target}");
                 sb.Append($"\n\t\ttype: {t}");
                 sb.Append($"\n\t\tname: {name}");
@@ -252,5 +253,4 @@ namespace IocContainer.Binder
             return retVal;
         }
     }
-
 }

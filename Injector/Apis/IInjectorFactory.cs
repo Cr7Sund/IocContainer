@@ -8,7 +8,8 @@
 
 namespace IocContainer.Binder
 {
-    public interface IInjectorFactory
+
+    internal interface IInjectorFactory
     {
         /// <summary>  Request instantiation based on the provided binding </summary>
         object Get(IInjectionBinding binding);

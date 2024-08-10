@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.ReflectionExceptionType
+  commentId: T:IocContainer.Binder.ReflectionExceptionType
+  id: ReflectionExceptionType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.ReflectionExceptionType.CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  - IocContainer.Binder.ReflectionExceptionType.CANNOT_POST_CONSTRUCTS
+  - IocContainer.Binder.ReflectionExceptionType.CANNOT_REFLECT_INTERFACE
+  langs:
+  - csharp
+  - vb
+  name: ReflectionExceptionType
+  nameWithType: ReflectionExceptionType
+  fullName: IocContainer.Binder.ReflectionExceptionType
+  type: Enum
+  source:
+    remote:
+      path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ReflectionExceptionType
+    path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+    startLine: 3
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum ReflectionExceptionType
+    content.vb: Public Enum ReflectionExceptionType
+- uid: IocContainer.Binder.ReflectionExceptionType.CANNOT_REFLECT_INTERFACE
+  commentId: F:IocContainer.Binder.ReflectionExceptionType.CANNOT_REFLECT_INTERFACE
+  id: CANNOT_REFLECT_INTERFACE
+  parent: IocContainer.Binder.ReflectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: CANNOT_REFLECT_INTERFACE
+  nameWithType: ReflectionExceptionType.CANNOT_REFLECT_INTERFACE
+  fullName: IocContainer.Binder.ReflectionExceptionType.CANNOT_REFLECT_INTERFACE
+  type: Field
+  source:
+    remote:
+      path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: CANNOT_REFLECT_INTERFACE
+    path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+    startLine: 6
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: CANNOT_REFLECT_INTERFACE = 0
+    return:
+      type: IocContainer.Binder.ReflectionExceptionType
+- uid: IocContainer.Binder.ReflectionExceptionType.CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  commentId: F:IocContainer.Binder.ReflectionExceptionType.CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  id: CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  parent: IocContainer.Binder.ReflectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  nameWithType: ReflectionExceptionType.CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  fullName: IocContainer.Binder.ReflectionExceptionType.CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+  type: Field
+  source:
+    remote:
+      path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: CANNOT_INJECT_INTO_NONPUBLIC_SETTER
+    path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+    startLine: 9
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: CANNOT_INJECT_INTO_NONPUBLIC_SETTER = 1
+    return:
+      type: IocContainer.Binder.ReflectionExceptionType
+- uid: IocContainer.Binder.ReflectionExceptionType.CANNOT_POST_CONSTRUCTS
+  commentId: F:IocContainer.Binder.ReflectionExceptionType.CANNOT_POST_CONSTRUCTS
+  id: CANNOT_POST_CONSTRUCTS
+  parent: IocContainer.Binder.ReflectionExceptionType
+  langs:
+  - csharp
+  - vb
+  name: CANNOT_POST_CONSTRUCTS
+  nameWithType: ReflectionExceptionType.CANNOT_POST_CONSTRUCTS
+  fullName: IocContainer.Binder.ReflectionExceptionType.CANNOT_POST_CONSTRUCTS
+  type: Field
+  source:
+    remote:
+      path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: CANNOT_POST_CONSTRUCTS
+    path: Injector/Reflector/Apis/ReflectionExceptionType.cs
+    startLine: 11
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: CANNOT_POST_CONSTRUCTS = 2
+    return:
+      type: IocContainer.Binder.ReflectionExceptionType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.ReflectionExceptionType
+  commentId: T:IocContainer.Binder.ReflectionExceptionType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.ReflectionExceptionType.html
+  name: ReflectionExceptionType
+  nameWithType: ReflectionExceptionType
+  fullName: IocContainer.Binder.ReflectionExceptionType

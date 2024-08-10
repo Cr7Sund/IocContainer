@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.BinderExceptionType
+  commentId: T:IocContainer.Binder.BinderExceptionType
+  id: BinderExceptionType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.BinderExceptionType.BINDING_LIMIT
+  - IocContainer.Binder.BinderExceptionType.CONFLICT_IN_BINDER
+  langs:
+  - csharp
+  - vb
+  name: BinderExceptionType
+  nameWithType: BinderExceptionType
+  fullName: IocContainer.Binder.BinderExceptionType
+  type: Enum
+  source:
+    remote:
+      path: Binder/Apis/BinderExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BinderExceptionType
+    path: Binder/Apis/BinderExceptionType.cs
+    startLine: 3
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum BinderExceptionType
+    content.vb: Public Enum BinderExceptionType
+- uid: IocContainer.Binder.BinderExceptionType.CONFLICT_IN_BINDER
+  commentId: F:IocContainer.Binder.BinderExceptionType.CONFLICT_IN_BINDER
+  id: CONFLICT_IN_BINDER
+  parent: IocContainer.Binder.BinderExceptionType
+  langs:
+  - csharp
+  - vb
+  name: CONFLICT_IN_BINDER
+  nameWithType: BinderExceptionType.CONFLICT_IN_BINDER
+  fullName: IocContainer.Binder.BinderExceptionType.CONFLICT_IN_BINDER
+  type: Field
+  source:
+    remote:
+      path: Binder/Apis/BinderExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: CONFLICT_IN_BINDER
+    path: Binder/Apis/BinderExceptionType.cs
+    startLine: 6
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: CONFLICT_IN_BINDER = 0
+    return:
+      type: IocContainer.Binder.BinderExceptionType
+- uid: IocContainer.Binder.BinderExceptionType.BINDING_LIMIT
+  commentId: F:IocContainer.Binder.BinderExceptionType.BINDING_LIMIT
+  id: BINDING_LIMIT
+  parent: IocContainer.Binder.BinderExceptionType
+  langs:
+  - csharp
+  - vb
+  name: BINDING_LIMIT
+  nameWithType: BinderExceptionType.BINDING_LIMIT
+  fullName: IocContainer.Binder.BinderExceptionType.BINDING_LIMIT
+  type: Field
+  source:
+    remote:
+      path: Binder/Apis/BinderExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BINDING_LIMIT
+    path: Binder/Apis/BinderExceptionType.cs
+    startLine: 8
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: BINDING_LIMIT = 1
+    return:
+      type: IocContainer.Binder.BinderExceptionType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.BinderExceptionType
+  commentId: T:IocContainer.Binder.BinderExceptionType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.BinderExceptionType.html
+  name: BinderExceptionType
+  nameWithType: BinderExceptionType
+  fullName: IocContainer.Binder.BinderExceptionType

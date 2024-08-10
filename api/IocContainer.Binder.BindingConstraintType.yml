@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.BindingConstraintType
+  commentId: T:IocContainer.Binder.BindingConstraintType
+  id: BindingConstraintType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.BindingConstraintType.MANY
+  - IocContainer.Binder.BindingConstraintType.ONE
+  - IocContainer.Binder.BindingConstraintType.POOL
+  langs:
+  - csharp
+  - vb
+  name: BindingConstraintType
+  nameWithType: BindingConstraintType
+  fullName: IocContainer.Binder.BindingConstraintType
+  type: Enum
+  source:
+    remote:
+      path: Binder/Apis/BindingConstraintType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: BindingConstraintType
+    path: Binder/Apis/BindingConstraintType.cs
+    startLine: 2
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum BindingConstraintType
+    content.vb: Public Enum BindingConstraintType
+- uid: IocContainer.Binder.BindingConstraintType.ONE
+  commentId: F:IocContainer.Binder.BindingConstraintType.ONE
+  id: ONE
+  parent: IocContainer.Binder.BindingConstraintType
+  langs:
+  - csharp
+  - vb
+  name: ONE
+  nameWithType: BindingConstraintType.ONE
+  fullName: IocContainer.Binder.BindingConstraintType.ONE
+  type: Field
+  source:
+    remote:
+      path: Binder/Apis/BindingConstraintType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ONE
+    path: Binder/Apis/BindingConstraintType.cs
+    startLine: 5
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: ONE = 0
+    return:
+      type: IocContainer.Binder.BindingConstraintType
+- uid: IocContainer.Binder.BindingConstraintType.MANY
+  commentId: F:IocContainer.Binder.BindingConstraintType.MANY
+  id: MANY
+  parent: IocContainer.Binder.BindingConstraintType
+  langs:
+  - csharp
+  - vb
+  name: MANY
+  nameWithType: BindingConstraintType.MANY
+  fullName: IocContainer.Binder.BindingConstraintType.MANY
+  type: Field
+  source:
+    remote:
+      path: Binder/Apis/BindingConstraintType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: MANY
+    path: Binder/Apis/BindingConstraintType.cs
+    startLine: 7
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: MANY = 1
+    return:
+      type: IocContainer.Binder.BindingConstraintType
+- uid: IocContainer.Binder.BindingConstraintType.POOL
+  commentId: F:IocContainer.Binder.BindingConstraintType.POOL
+  id: POOL
+  parent: IocContainer.Binder.BindingConstraintType
+  langs:
+  - csharp
+  - vb
+  name: POOL
+  nameWithType: BindingConstraintType.POOL
+  fullName: IocContainer.Binder.BindingConstraintType.POOL
+  type: Field
+  source:
+    remote:
+      path: Binder/Apis/BindingConstraintType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: POOL
+    path: Binder/Apis/BindingConstraintType.cs
+    startLine: 9
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  example: []
+  syntax:
+    content: POOL = 2
+    return:
+      type: IocContainer.Binder.BindingConstraintType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.BindingConstraintType
+  commentId: T:IocContainer.Binder.BindingConstraintType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.BindingConstraintType.html
+  name: BindingConstraintType
+  nameWithType: BindingConstraintType
+  fullName: IocContainer.Binder.BindingConstraintType

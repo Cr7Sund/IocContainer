@@ -1,7 +1,7 @@
 ﻿using Cr7Sund.Utility;
 namespace IocContainer.Binder
 {
-    public abstract class CrossContext : Context, ICrossContext
+    internal abstract class CrossContext : Context, ICrossContext
     {
         protected ICrossContextInjectionBinder _crossContextInjectionBinder;
 
@@ -14,7 +14,7 @@ namespace IocContainer.Binder
         }
 
 
-        public CrossContext()
+        public CrossContext() : base()
         {
             _crossContextInjectionBinder = new CrossContextInjectionBinder();
         }
@@ -39,11 +39,12 @@ namespace IocContainer.Binder
 
         private void AssignCrossContext(ICrossContext childContext)
         {
-            AssertUtil.NotNull(_crossContextInjectionBinder.CrossContextBinder, ContainerExceptionType.EmptyCrossContext);
+            AssertUtil.NotNull(_crossContextInjectionBinder.CrossContextBinder, ContextExceptionType.EmptyCrossContext);
 
-            if (childContext.InjectionBinder is CrossContextInjectionBinder childContextBinder)
+            if (childContext is Context context &&
+                context.InjectionBinder is CrossContextInjectionBinder childContextBinder)
             {
-                AssertUtil.IsNull(childContextBinder.CrossContextBinder, ContainerExceptionType.DuplicateCrossContext);
+                AssertUtil.IsNull(childContextBinder.CrossContextBinder, ContextExceptionType.DuplicateCrossContext);
 
                 childContextBinder.CrossContextBinder = new CrossContextInjectionBinder();
                 childContextBinder.CrossContextBinder.CopyFrom(_crossContextInjectionBinder.CrossContextBinder);
@@ -52,7 +53,8 @@ namespace IocContainer.Binder
 
         private void RemoveCrossContext(ICrossContext childContext)
         {
-            if (childContext.InjectionBinder is CrossContextInjectionBinder childContextBinder)
+            if (childContext is Context context &&
+                context.InjectionBinder is CrossContextInjectionBinder childContextBinder)
             {
                 // since cross context is only from unique context;
                 childContextBinder.CrossContextBinder.RemoveAll();

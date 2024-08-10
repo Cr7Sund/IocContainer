@@ -2,7 +2,8 @@ using System;
 using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public interface IInjectionBinding : IBinding
+
+    internal interface IInjectionBinding : IBinding
     {
 
         bool IsCrossContext { get; }
@@ -53,8 +54,7 @@ namespace IocContainer.Binder
         new IInjectionBinding ToName(object name);
         new IInjectionBinding Weak();
     }
-
-    public enum InjectionBindingType
+    internal enum InjectionBindingType
     {
         /// <summary>  The binding provides a new instance every time </summary>
         DEFAULT,

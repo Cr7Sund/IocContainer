@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.ICrossContext
+  commentId: T:IocContainer.Binder.ICrossContext
+  id: ICrossContext
+  parent: IocContainer.Binder
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICrossContext
+  nameWithType: ICrossContext
+  fullName: IocContainer.Binder.ICrossContext
+  type: Interface
+  source:
+    remote:
+      path: Container/Apis/ICrossContext.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ICrossContext
+    path: Container/Apis/ICrossContext.cs
+    startLine: 3
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: 'public interface ICrossContext : IContext, IDisposable, IInstanceProvider'
+    content.vb: Public Interface ICrossContext Inherits IContext, IDisposable, IInstanceProvider
+  inheritedMembers:
+  - IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  - IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  - IocContainer.Binder.IContext.RemoveComponents
+  - IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  - IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  - IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  - IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  - IocContainer.Binder.IContext.BindSingleton``2
+  - IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  - IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  - IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  - IocContainer.Binder.IContext.Unbind``1(System.Object)
+  - IocContainer.Binder.IContext.Inject(System.Object)
+  - IocContainer.Binder.IContext.Deject(System.Object)
+  - System.IDisposable.Dispose
+  - IocContainer.Binder.IInstanceProvider.GetInstance``1
+  - IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  commentId: M:IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  parent: IocContainer.Binder.IContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_AddContext_IocContainer_Binder_IContext_
+  name: AddContext(IContext)
+  nameWithType: IContext.AddContext(IContext)
+  fullName: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+    name: AddContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_AddContext_IocContainer_Binder_IContext_
+  - name: (
+  - uid: IocContainer.Binder.IContext
+    name: IContext
+    href: IocContainer.Binder.IContext.html
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)
+    name: AddContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_AddContext_IocContainer_Binder_IContext_
+  - name: (
+  - uid: IocContainer.Binder.IContext
+    name: IContext
+    href: IocContainer.Binder.IContext.html
+  - name: )
+- uid: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  commentId: M:IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  parent: IocContainer.Binder.IContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveContext_IocContainer_Binder_IContext_
+  name: RemoveContext(IContext)
+  nameWithType: IContext.RemoveContext(IContext)
+  fullName: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+    name: RemoveContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveContext_IocContainer_Binder_IContext_
+  - name: (
+  - uid: IocContainer.Binder.IContext
+    name: IContext
+    href: IocContainer.Binder.IContext.html
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)
+    name: RemoveContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveContext_IocContainer_Binder_IContext_
+  - name: (
+  - uid: IocContainer.Binder.IContext
+    name: IContext
+    href: IocContainer.Binder.IContext.html
+  - name: )
+- uid: IocContainer.Binder.IContext.RemoveComponents
+  commentId: M:IocContainer.Binder.IContext.RemoveComponents
+  parent: IocContainer.Binder.IContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveComponents
+  name: RemoveComponents()
+  nameWithType: IContext.RemoveComponents()
+  fullName: IocContainer.Binder.IContext.RemoveComponents()
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.RemoveComponents
+    name: RemoveComponents
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveComponents
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.RemoveComponents
+    name: RemoveComponents
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_RemoveComponents
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstance``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_
+  name: BindInstance<T>(object)
+  nameWithType: IContext.BindInstance<T>(object)
+  fullName: IocContainer.Binder.IContext.BindInstance<T>(object)
+  nameWithType.vb: IContext.BindInstance(Of T)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstance(Of T)(Object)
+  name.vb: BindInstance(Of T)(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindInstance``1(System.Object)
+    name: BindInstance
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindInstance``1(System.Object)
+    name: BindInstance
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  commentId: M:IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_System_String_
+  name: BindInstance<T>(object, string)
+  nameWithType: IContext.BindInstance<T>(object, string)
+  fullName: IocContainer.Binder.IContext.BindInstance<T>(object, string)
+  nameWithType.vb: IContext.BindInstance(Of T)(Object, String)
+  fullName.vb: IocContainer.Binder.IContext.BindInstance(Of T)(Object, String)
+  name.vb: BindInstance(Of T)(Object, String)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+    name: BindInstance
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)
+    name: BindInstance
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstance__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_
+  name: BindInstanceAsCrossContext<TKey>(object)
+  nameWithType: IContext.BindInstanceAsCrossContext<TKey>(object)
+  fullName: IocContainer.Binder.IContext.BindInstanceAsCrossContext<TKey>(object)
+  nameWithType.vb: IContext.BindInstanceAsCrossContext(Of TKey)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstanceAsCrossContext(Of TKey)(Object)
+  name.vb: BindInstanceAsCrossContext(Of TKey)(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+    name: BindInstanceAsCrossContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)
+    name: BindInstanceAsCrossContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_System_Object_
+  name: BindInstanceAsCrossContext<TKey>(object, object)
+  nameWithType: IContext.BindInstanceAsCrossContext<TKey>(object, object)
+  fullName: IocContainer.Binder.IContext.BindInstanceAsCrossContext<TKey>(object, object)
+  nameWithType.vb: IContext.BindInstanceAsCrossContext(Of TKey)(Object, Object)
+  fullName.vb: IocContainer.Binder.IContext.BindInstanceAsCrossContext(Of TKey)(Object, Object)
+  name.vb: BindInstanceAsCrossContext(Of TKey)(Object, Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+    name: BindInstanceAsCrossContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_System_Object_
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)
+    name: BindInstanceAsCrossContext
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindInstanceAsCrossContext__1_System_Object_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.BindSingleton``2
+  commentId: M:IocContainer.Binder.IContext.BindSingleton``2
+  parent: IocContainer.Binder.IContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2
+  name: BindSingleton<TKey, TValue>()
+  nameWithType: IContext.BindSingleton<TKey, TValue>()
+  fullName: IocContainer.Binder.IContext.BindSingleton<TKey, TValue>()
+  nameWithType.vb: IContext.BindSingleton(Of TKey, TValue)()
+  fullName.vb: IocContainer.Binder.IContext.BindSingleton(Of TKey, TValue)()
+  name.vb: BindSingleton(Of TKey, TValue)()
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindSingleton``2
+    name: BindSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindSingleton``2
+    name: BindSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2_System_Object_
+  name: BindSingleton<TKey, TValue>(object)
+  nameWithType: IContext.BindSingleton<TKey, TValue>(object)
+  fullName: IocContainer.Binder.IContext.BindSingleton<TKey, TValue>(object)
+  nameWithType.vb: IContext.BindSingleton(Of TKey, TValue)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindSingleton(Of TKey, TValue)(Object)
+  name.vb: BindSingleton(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+    name: BindSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2_System_Object_
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindSingleton``2(System.Object)
+    name: BindSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindSingleton__2_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  commentId: M:IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+  parent: IocContainer.Binder.IContext
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2
+  name: BindCrossContextAndSingleton<TKey, TValue>()
+  nameWithType: IContext.BindCrossContextAndSingleton<TKey, TValue>()
+  fullName: IocContainer.Binder.IContext.BindCrossContextAndSingleton<TKey, TValue>()
+  nameWithType.vb: IContext.BindCrossContextAndSingleton(Of TKey, TValue)()
+  fullName.vb: IocContainer.Binder.IContext.BindCrossContextAndSingleton(Of TKey, TValue)()
+  name.vb: BindCrossContextAndSingleton(Of TKey, TValue)()
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+    name: BindCrossContextAndSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2
+    name: BindCrossContextAndSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  commentId: M:IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2_System_Object_
+  name: BindCrossContextAndSingleton<TKey, TValue>(object)
+  nameWithType: IContext.BindCrossContextAndSingleton<TKey, TValue>(object)
+  fullName: IocContainer.Binder.IContext.BindCrossContextAndSingleton<TKey, TValue>(object)
+  nameWithType.vb: IContext.BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+  fullName.vb: IocContainer.Binder.IContext.BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+  name.vb: BindCrossContextAndSingleton(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+    name: BindCrossContextAndSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2_System_Object_
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)
+    name: BindCrossContextAndSingleton
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_BindCrossContextAndSingleton__2_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.Unbind``1(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Unbind``1(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Unbind__1_System_Object_
+  name: Unbind<T>(object)
+  nameWithType: IContext.Unbind<T>(object)
+  fullName: IocContainer.Binder.IContext.Unbind<T>(object)
+  nameWithType.vb: IContext.Unbind(Of T)(Object)
+  fullName.vb: IocContainer.Binder.IContext.Unbind(Of T)(Object)
+  name.vb: Unbind(Of T)(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.Unbind``1(System.Object)
+    name: Unbind
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Unbind__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.Unbind``1(System.Object)
+    name: Unbind
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Unbind__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.Inject(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Inject(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Inject_System_Object_
+  name: Inject(object)
+  nameWithType: IContext.Inject(object)
+  fullName: IocContainer.Binder.IContext.Inject(object)
+  nameWithType.vb: IContext.Inject(Object)
+  fullName.vb: IocContainer.Binder.IContext.Inject(Object)
+  name.vb: Inject(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.Inject(System.Object)
+    name: Inject
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Inject_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.Inject(System.Object)
+    name: Inject
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Inject_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IocContainer.Binder.IContext.Deject(System.Object)
+  commentId: M:IocContainer.Binder.IContext.Deject(System.Object)
+  parent: IocContainer.Binder.IContext
+  isExternal: true
+  href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Deject_System_Object_
+  name: Deject(object)
+  nameWithType: IContext.Deject(object)
+  fullName: IocContainer.Binder.IContext.Deject(object)
+  nameWithType.vb: IContext.Deject(Object)
+  fullName.vb: IocContainer.Binder.IContext.Deject(Object)
+  name.vb: Deject(Object)
+  spec.csharp:
+  - uid: IocContainer.Binder.IContext.Deject(System.Object)
+    name: Deject
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Deject_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IContext.Deject(System.Object)
+    name: Deject
+    href: IocContainer.Binder.IContext.html#IocContainer_Binder_IContext_Deject_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance``1
+  parent: IocContainer.Binder.IInstanceProvider
+  href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  name: GetInstance<T>()
+  nameWithType: IInstanceProvider.GetInstance<T>()
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance<T>()
+  nameWithType.vb: IInstanceProvider.GetInstance(Of T)()
+  fullName.vb: IocContainer.Binder.IInstanceProvider.GetInstance(Of T)()
+  name.vb: GetInstance(Of T)()
+  spec.csharp:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  parent: IocContainer.Binder.IInstanceProvider
+  isExternal: true
+  href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  name: GetInstance(Type)
+  nameWithType: IInstanceProvider.GetInstance(Type)
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  spec.csharp:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+    name: GetInstance
+    href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: IocContainer.Binder.IContext
+  commentId: T:IocContainer.Binder.IContext
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IContext.html
+  name: IContext
+  nameWithType: IContext
+  fullName: IocContainer.Binder.IContext
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: IocContainer.Binder.IInstanceProvider
+  commentId: T:IocContainer.Binder.IInstanceProvider
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IInstanceProvider.html
+  name: IInstanceProvider
+  nameWithType: IInstanceProvider
+  fullName: IocContainer.Binder.IInstanceProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

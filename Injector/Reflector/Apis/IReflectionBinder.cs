@@ -13,7 +13,8 @@
 using System;
 namespace IocContainer.Binder
 {
-    public interface IReflectionBinder
+
+    internal interface IReflectionBinder
     {
         /// <summary>  Get a binding based on the provided Type </summary>
         IReflectedClass Get(Type type);

@@ -1,8 +1,8 @@
 using Cr7Sund.Utility;
-using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public interface IInjectionBinder : IBinder, IInstanceProvider
+
+    internal interface IInjectionBinder : IBinder, IInstanceProvider
     {
         ///<summary> Get or set an Injector to use. By default, Injector instantiates it's own, but that can be overridden.</summary>
         IInjector Injector { get; set; }
@@ -43,4 +43,5 @@ namespace IocContainer.Binder
         IInjectionBinding GetBinding(Type key);
         IInjectionBinding GetBinding(Type key, object name);
     }
+
 }

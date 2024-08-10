@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  id: IocContainer.Binder
+  children:
+  - IocContainer.Binder.IContext
+  - IocContainer.Binder.ICrossContext
+  - IocContainer.Binder.IInstanceProvider
+  langs:
+  - csharp
+  - vb
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  type: Namespace
+  assemblies:
+  - IocContainer
+references:
+- uid: IocContainer.Binder.IContext
+  commentId: T:IocContainer.Binder.IContext
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IContext.html
+  name: IContext
+  nameWithType: IContext
+  fullName: IocContainer.Binder.IContext
+- uid: IocContainer.Binder.ICrossContext
+  commentId: T:IocContainer.Binder.ICrossContext
+  href: IocContainer.Binder.ICrossContext.html
+  name: ICrossContext
+  nameWithType: ICrossContext
+  fullName: IocContainer.Binder.ICrossContext
+- uid: IocContainer.Binder.IInstanceProvider
+  commentId: T:IocContainer.Binder.IInstanceProvider
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.IInstanceProvider.html
+  name: IInstanceProvider
+  nameWithType: IInstanceProvider
+  fullName: IocContainer.Binder.IInstanceProvider
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html

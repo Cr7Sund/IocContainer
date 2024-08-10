@@ -12,7 +12,8 @@ using System;
 using System.Reflection;
 namespace IocContainer.Binder
 {
-    public interface IReflectedClass
+
+    internal interface IReflectedClass
     {
         /// <summary>  Get/set the preferred constructor </summary>
         ConstructorInfo Constructor { get; set; }

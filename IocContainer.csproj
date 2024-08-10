@@ -4,18 +4,21 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Binder\" />
+        <Folder Include="Binder\"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Cr7Sund.Utility" Version="1.0.2" />
+        <PackageReference Include="Cr7Sund.Utility" Version="1.0.2"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Remove="Injector\Apis\IInstanceProvider.cs" />
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+            <_Parameter1>IocContainerTest</_Parameter1>
+        </AssemblyAttribute>
     </ItemGroup>
 
 </Project>

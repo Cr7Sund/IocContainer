@@ -1,9 +1,3 @@
-/**
- * @interface Cr7Sund.Framework.Api.IInstanceProvider
- *
- * Provides an instance of the specified Type
- * When all you need is a new instance, use this instead of IInjectionBinder.
- */
 using System;
 namespace IocContainer.Binder
 {

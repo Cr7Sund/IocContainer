@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public enum InjectionExceptionType
+
+    internal enum InjectionExceptionType
     {
         /// No InjectionBinder found.
         NO_BINDER,

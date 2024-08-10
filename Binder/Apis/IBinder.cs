@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public interface IBinder : IDisposable
+
+    internal interface IBinder : IDisposable
     {
         /// <summary>
         ///     Bind a Binding Key to a class or interface generic
@@ -65,18 +66,19 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Places individual Bindings into the bindings Dictionary as part of the resolving process
         /// </summary>
-        void ResolveBinding(IBinding binding, object key, object oldName );
-        
+        void ResolveBinding(IBinding binding, object key, object oldName);
+
         /// <summary>
         /// copy bindings from binder
         /// </summary>
         /// <param name="fromBinder"></param>
         void CopyFrom(IBinder fromBinder);
-        
+
         /// <summary>
         /// remove all  bindings 
         /// not unbind since the binding maybe come from other binders
         /// </summary>
         void RemoveAll();
     }
+
 }

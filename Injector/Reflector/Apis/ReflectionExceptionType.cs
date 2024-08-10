@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public enum ReflectionExceptionType
+
+    internal enum ReflectionExceptionType
     {
         /// The reflector requires a constructor, which Interfaces don't provide.
         CANNOT_REFLECT_INTERFACE,

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.ContextExceptionType
+  commentId: T:IocContainer.Binder.ContextExceptionType
+  id: ContextExceptionType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.ContextExceptionType.DuplicateCrossContext
+  - IocContainer.Binder.ContextExceptionType.EmptyCrossContext
+  langs:
+  - csharp
+  - vb
+  name: ContextExceptionType
+  nameWithType: ContextExceptionType
+  fullName: IocContainer.Binder.ContextExceptionType
+  type: Enum
+  source:
+    remote:
+      path: Container/Apis/ContextExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: ContextExceptionType
+    path: Container/Apis/ContextExceptionType.cs
+    startLine: 2
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum ContextExceptionType
+    content.vb: Public Enum ContextExceptionType
+- uid: IocContainer.Binder.ContextExceptionType.DuplicateCrossContext
+  commentId: F:IocContainer.Binder.ContextExceptionType.DuplicateCrossContext
+  id: DuplicateCrossContext
+  parent: IocContainer.Binder.ContextExceptionType
+  langs:
+  - csharp
+  - vb
+  name: DuplicateCrossContext
+  nameWithType: ContextExceptionType.DuplicateCrossContext
+  fullName: IocContainer.Binder.ContextExceptionType.DuplicateCrossContext
+  type: Field
+  source:
+    remote:
+      path: Container/Apis/ContextExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: DuplicateCrossContext
+    path: Container/Apis/ContextExceptionType.cs
+    startLine: 7
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: try to assign duplicate cross context
+  example: []
+  syntax:
+    content: DuplicateCrossContext = 0
+    return:
+      type: IocContainer.Binder.ContextExceptionType
+- uid: IocContainer.Binder.ContextExceptionType.EmptyCrossContext
+  commentId: F:IocContainer.Binder.ContextExceptionType.EmptyCrossContext
+  id: EmptyCrossContext
+  parent: IocContainer.Binder.ContextExceptionType
+  langs:
+  - csharp
+  - vb
+  name: EmptyCrossContext
+  nameWithType: ContextExceptionType.EmptyCrossContext
+  fullName: IocContainer.Binder.ContextExceptionType.EmptyCrossContext
+  type: Field
+  source:
+    remote:
+      path: Container/Apis/ContextExceptionType.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: EmptyCrossContext
+    path: Container/Apis/ContextExceptionType.cs
+    startLine: 11
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: there should be a cross context
+  example: []
+  syntax:
+    content: EmptyCrossContext = 1
+    return:
+      type: IocContainer.Binder.ContextExceptionType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.ContextExceptionType
+  commentId: T:IocContainer.Binder.ContextExceptionType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.ContextExceptionType.html
+  name: ContextExceptionType
+  nameWithType: ContextExceptionType
+  fullName: IocContainer.Binder.ContextExceptionType

@@ -1,6 +1,7 @@
 namespace IocContainer.Binder
 {
-    public interface IManagedList : IDisposable
+
+    internal interface IManagedList : IDisposable
     {
         // Length of values
         int Count { get; }
@@ -18,6 +19,5 @@ namespace IocContainer.Binder
 
         bool Contains(object o);
     }
-
 
 }

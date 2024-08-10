@@ -1,9 +1,8 @@
 using System.Runtime.CompilerServices;
 using Cr7Sund.Utility;
-using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class SemiBinding : ISemiBinding
+    internal class SemiBinding : ISemiBinding
     {
         protected object[] _objectValue;
         private int _size;
@@ -29,7 +28,13 @@ namespace IocContainer.Binder
                 return _objectValue;
             }
         }
-        public int Count => _size;
+        public int Count
+        {
+            get
+            {
+                return _size;
+            }
+        }
 
         public object this[int index]
         {
@@ -54,7 +59,13 @@ namespace IocContainer.Binder
             }
         }
         public int MaxSize { get; set; }
-        public int Capacity => _capacity;
+        public int Capacity
+        {
+            get
+            {
+                return _capacity;
+            }
+        }
 
         public SemiBinding()
         {
@@ -133,7 +144,7 @@ namespace IocContainer.Binder
         {
             _size = 0;
             _capacity = 0;
-            foreach (var item in _objectValue)
+            foreach (object? item in _objectValue)
             {
                 if (item is IDisposable disposable)
                 {
@@ -162,7 +173,7 @@ namespace IocContainer.Binder
 
             if (_capacity != _objectValue.Length)
             {
-                var newItems = new object[_capacity];
+                object[]? newItems = new object[_capacity];
                 Array.Copy(_objectValue, newItems, _size);
                 _objectValue = newItems;
             }
@@ -171,19 +182,16 @@ namespace IocContainer.Binder
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private int GetNewCapacity()
         {
-            int newCapacity = _objectValue.Length == 0 ?
-                      (InflationType == PoolInflationType.DOUBLE ? DefaultDoubleCapacity : DefaultCapacity) :
-                      (InflationType == PoolInflationType.DOUBLE ? 2 * _objectValue.Length : _objectValue.Length + 1);
+            int newCapacity = _objectValue.Length == 0 ? InflationType == PoolInflationType.DOUBLE ? DefaultDoubleCapacity : DefaultCapacity :
+                InflationType == PoolInflationType.DOUBLE ? 2 * _objectValue.Length : _objectValue.Length + 1;
 
             if (newCapacity > MaxSize) throw new Exception(BinderExceptionType.BINDING_LIMIT.ToString());
             return newCapacity;
         }
-
         #endregion
 
 
         #region ISemiBinding implementation
-
         public object[] Clone()
         {
             object[] resultArray = new object[_size];
@@ -192,6 +200,5 @@ namespace IocContainer.Binder
         }
         #endregion
     }
-
 
 }

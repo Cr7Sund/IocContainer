@@ -1,7 +1,7 @@
-using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class Binding : IBinding
+
+    internal class Binding : IBinding
     {
         protected bool _isWeak;
         protected ISemiBinding _key;
@@ -140,7 +140,7 @@ namespace IocContainer.Binder
 
         public IBinding ToName(object name)
         {
-            var toName = name == null ? BindingConst.NULLOIDNAME : name;
+            object? toName = name == null ? BindingConst.NULLOIDNAME : name;
             object oldName = _name;
 
             _name = toName;
@@ -169,13 +169,11 @@ namespace IocContainer.Binder
         }
         #endregion
     }
-
-    public class BindingConst
+    internal class BindingConst
     {
         /// Null is an acceptable binding, but dictionaries choke on it, so we map null to this instead.
         // the reason why not use enum is boxing operation cost
         public const string NULLOIDNAME = "NULLOIDNAME";
-
-
     }
+
 }

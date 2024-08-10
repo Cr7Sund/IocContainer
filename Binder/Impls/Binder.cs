@@ -1,7 +1,7 @@
-using IocContainer.Binder;
 namespace IocContainer.Binder
 {
-    public class Binder : IBinder
+
+    internal class Binder : IBinder
     {
         /// A handler for resolving the nature of a binding during chained commands
         public delegate void BindingResolver(IBinding binding, object oldName = null);
@@ -28,7 +28,7 @@ namespace IocContainer.Binder
             binding.Bind(key);
             return binding;
         }
-        
+
         protected virtual IBinding GetRawBinding()
         {
             return new Binding(_bindingResolverHandler);
@@ -55,7 +55,7 @@ namespace IocContainer.Binder
             var key = typeof(T);
             return GetBinding(key, name);
         }
-        
+
         public IBinding GetBinding<T>()
         {
             var key = typeof(T);
@@ -75,7 +75,7 @@ namespace IocContainer.Binder
 
                 for (int i = 0; i < list.Count; i++)
                 {
-                    IBinding item = list[i];
+                    var item = list[i];
                     if (item.Name.Equals(name))
                     {
                         return item;
@@ -137,7 +137,7 @@ namespace IocContainer.Binder
 
             void UpdateBindingAndCleanup(IBinding binding, object value, List<IBinding> dict, int i)
             {
-                IBinding useBinding = dict[i];
+                var useBinding = dict[i];
                 if (useBinding.Name.Equals(binding.Name))
                 {
                     useBinding.RemoveValue(value);
@@ -173,7 +173,7 @@ namespace IocContainer.Binder
             {
                 for (int i = list.Count - 1; i >= 0; i--)
                 {
-                    IBinding existingBinding = list[i];
+                    var existingBinding = list[i];
                     if (existingBinding.Name != bindingName) continue;
                     if (existingBinding != binding)
                     {
@@ -194,7 +194,7 @@ namespace IocContainer.Binder
                 // e.g. when we toname to change the binding name but the binderDict still exist the oldName
                 for (int i = list.Count - 1; i >= 0; i--)
                 {
-                    IBinding existingBinding = list[i];
+                    var existingBinding = list[i];
                     if (existingBinding.Name.Equals(removeName) && existingBinding == binding)
                     {
                         list.RemoveAt(i);
@@ -208,7 +208,7 @@ namespace IocContainer.Binder
                 bool shouldAdd = true;
                 for (int i = 0; i < list.Count; i++)
                 {
-                    IBinding existingBinding = list[i];
+                    var existingBinding = list[i];
                     if (existingBinding.Name.Equals(bindingName))
                     {
                         shouldAdd = false;
@@ -267,7 +267,7 @@ namespace IocContainer.Binder
 
                 for (int i = list.Count - 1; i >= 0; i--)
                 {
-                    IBinding item = list[i];
+                    var item = list[i];
                     if (item.Name.Equals(name))
                     {
                         result = item;
@@ -288,8 +288,7 @@ namespace IocContainer.Binder
         {
 
         }
-
         #endregion
-
     }
+
 }

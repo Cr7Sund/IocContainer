@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.InjectionBindingType
+  commentId: T:IocContainer.Binder.InjectionBindingType
+  id: InjectionBindingType
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.InjectionBindingType.DEFAULT
+  - IocContainer.Binder.InjectionBindingType.POOL
+  - IocContainer.Binder.InjectionBindingType.SINGLETON
+  - IocContainer.Binder.InjectionBindingType.VALUE
+  langs:
+  - csharp
+  - vb
+  name: InjectionBindingType
+  nameWithType: InjectionBindingType
+  fullName: IocContainer.Binder.InjectionBindingType
+  type: Enum
+  source:
+    remote:
+      path: Injector/Apis/IInjectionBinding.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: InjectionBindingType
+    path: Injector/Apis/IInjectionBinding.cs
+    startLine: 56
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public enum InjectionBindingType
+    content.vb: Public Enum InjectionBindingType
+- uid: IocContainer.Binder.InjectionBindingType.DEFAULT
+  commentId: F:IocContainer.Binder.InjectionBindingType.DEFAULT
+  id: DEFAULT
+  parent: IocContainer.Binder.InjectionBindingType
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT
+  nameWithType: InjectionBindingType.DEFAULT
+  fullName: IocContainer.Binder.InjectionBindingType.DEFAULT
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/IInjectionBinding.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: DEFAULT
+    path: Injector/Apis/IInjectionBinding.cs
+    startLine: 59
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: The binding provides a new instance every time
+  example: []
+  syntax:
+    content: DEFAULT = 0
+    return:
+      type: IocContainer.Binder.InjectionBindingType
+- uid: IocContainer.Binder.InjectionBindingType.SINGLETON
+  commentId: F:IocContainer.Binder.InjectionBindingType.SINGLETON
+  id: SINGLETON
+  parent: IocContainer.Binder.InjectionBindingType
+  langs:
+  - csharp
+  - vb
+  name: SINGLETON
+  nameWithType: InjectionBindingType.SINGLETON
+  fullName: IocContainer.Binder.InjectionBindingType.SINGLETON
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/IInjectionBinding.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: SINGLETON
+    path: Injector/Apis/IInjectionBinding.cs
+    startLine: 62
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: The binding always provides the same instance
+  example: []
+  syntax:
+    content: SINGLETON = 1
+    return:
+      type: IocContainer.Binder.InjectionBindingType
+- uid: IocContainer.Binder.InjectionBindingType.VALUE
+  commentId: F:IocContainer.Binder.InjectionBindingType.VALUE
+  id: VALUE
+  parent: IocContainer.Binder.InjectionBindingType
+  langs:
+  - csharp
+  - vb
+  name: VALUE
+  nameWithType: InjectionBindingType.VALUE
+  fullName: IocContainer.Binder.InjectionBindingType.VALUE
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/IInjectionBinding.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: VALUE
+    path: Injector/Apis/IInjectionBinding.cs
+    startLine: 65
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: The binding always provides the same instance based on a provided value
+  example: []
+  syntax:
+    content: VALUE = 2
+    return:
+      type: IocContainer.Binder.InjectionBindingType
+- uid: IocContainer.Binder.InjectionBindingType.POOL
+  commentId: F:IocContainer.Binder.InjectionBindingType.POOL
+  id: POOL
+  parent: IocContainer.Binder.InjectionBindingType
+  langs:
+  - csharp
+  - vb
+  name: POOL
+  nameWithType: InjectionBindingType.POOL
+  fullName: IocContainer.Binder.InjectionBindingType.POOL
+  type: Field
+  source:
+    remote:
+      path: Injector/Apis/IInjectionBinding.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: POOL
+    path: Injector/Apis/IInjectionBinding.cs
+    startLine: 67
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: The binding provides a new instance every time from pool
+  example: []
+  syntax:
+    content: POOL = 3
+    return:
+      type: IocContainer.Binder.InjectionBindingType
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.InjectionBindingType
+  commentId: T:IocContainer.Binder.InjectionBindingType
+  parent: IocContainer.Binder
+  href: IocContainer.Binder.InjectionBindingType.html
+  name: InjectionBindingType
+  nameWithType: InjectionBindingType
+  fullName: IocContainer.Binder.InjectionBindingType

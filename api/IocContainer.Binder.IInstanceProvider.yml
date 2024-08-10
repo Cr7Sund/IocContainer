@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: IocContainer.Binder.IInstanceProvider
+  commentId: T:IocContainer.Binder.IInstanceProvider
+  id: IInstanceProvider
+  parent: IocContainer.Binder
+  children:
+  - IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  - IocContainer.Binder.IInstanceProvider.GetInstance``1
+  langs:
+  - csharp
+  - vb
+  name: IInstanceProvider
+  nameWithType: IInstanceProvider
+  fullName: IocContainer.Binder.IInstanceProvider
+  type: Interface
+  source:
+    remote:
+      path: Injector/Apis/IInstanceProvider.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: IInstanceProvider
+    path: Injector/Apis/IInstanceProvider.cs
+    startLine: 3
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: public interface IInstanceProvider
+    content.vb: Public Interface IInstanceProvider
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance``1
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance``1
+  id: GetInstance``1
+  parent: IocContainer.Binder.IInstanceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetInstance<T>()
+  nameWithType: IInstanceProvider.GetInstance<T>()
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance<T>()
+  type: Method
+  source:
+    remote:
+      path: Injector/Apis/IInstanceProvider.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: GetInstance
+    path: Injector/Apis/IInstanceProvider.cs
+    startLine: 9
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  syntax:
+    content: T GetInstance<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetInstance(Of T)() As T
+  overload: IocContainer.Binder.IInstanceProvider.GetInstance*
+  nameWithType.vb: IInstanceProvider.GetInstance(Of T)()
+  fullName.vb: IocContainer.Binder.IInstanceProvider.GetInstance(Of T)()
+  name.vb: GetInstance(Of T)()
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  commentId: M:IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  id: GetInstance(System.Type)
+  parent: IocContainer.Binder.IInstanceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetInstance(Type)
+  nameWithType: IInstanceProvider.GetInstance(Type)
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Injector/Apis/IInstanceProvider.cs
+      branch: master
+      repo: https://github.com/Cr7Sund/IocContainer.git
+    id: GetInstance
+    path: Injector/Apis/IInstanceProvider.cs
+    startLine: 15
+  assemblies:
+  - IocContainer
+  namespace: IocContainer.Binder
+  summary: >-
+    Retrieve an Instance based on the key.
+
+    ex. `injectionBinder.Get(typeof(ISomeInterface));`
+  example: []
+  syntax:
+    content: object GetInstance(Type key)
+    parameters:
+    - id: key
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function GetInstance(key As Type) As Object
+  overload: IocContainer.Binder.IInstanceProvider.GetInstance*
+references:
+- uid: IocContainer.Binder
+  commentId: N:IocContainer.Binder
+  href: IocContainer.html
+  name: IocContainer.Binder
+  nameWithType: IocContainer.Binder
+  fullName: IocContainer.Binder
+  spec.csharp:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+  spec.vb:
+  - uid: IocContainer
+    name: IocContainer
+    href: IocContainer.html
+  - name: .
+  - uid: IocContainer.Binder
+    name: Binder
+    href: IocContainer.Binder.html
+- uid: IocContainer.Binder.IInstanceProvider.GetInstance*
+  commentId: Overload:IocContainer.Binder.IInstanceProvider.GetInstance
+  href: IocContainer.Binder.IInstanceProvider.html#IocContainer_Binder_IInstanceProvider_GetInstance__1
+  name: GetInstance
+  nameWithType: IInstanceProvider.GetInstance
+  fullName: IocContainer.Binder.IInstanceProvider.GetInstance
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,12 @@
+### YamlMime:TableOfContent
+items:
+- uid: IocContainer.Binder
+  name: IocContainer.Binder
+  items:
+  - uid: IocContainer.Binder.IContext
+    name: IContext
+  - uid: IocContainer.Binder.ICrossContext
+    name: ICrossContext
+  - uid: IocContainer.Binder.IInstanceProvider
+    name: IInstanceProvider
+memberLayout: SamePage

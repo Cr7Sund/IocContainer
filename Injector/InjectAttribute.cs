@@ -25,7 +25,7 @@ public sealed class Inject : Attribute
 
 //Tag [PostConstruct] to perform post-injection construction actions
 [AttributeUsage(AttributeTargets.Method)]
-public class PostConstruct : Attribute
+internal class PostConstruct : Attribute
 {
     public PostConstruct() { }
 

@@ -1,0 +1,22 @@
+{
+  "IocContainer.Binder": "IocContainer.Binder.yml",
+  "IocContainer.Binder.IContext": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.AddContext(IocContainer.Binder.IContext)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindCrossContextAndSingleton``2": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindCrossContextAndSingleton``2(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindInstanceAsCrossContext``1(System.Object,System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindInstance``1(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindInstance``1(System.Object,System.String)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindSingleton``2": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.BindSingleton``2(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.Deject(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.Inject(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.RemoveComponents": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.RemoveContext(IocContainer.Binder.IContext)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.IContext.Unbind``1(System.Object)": "IocContainer.Binder.IContext.yml",
+  "IocContainer.Binder.ICrossContext": "IocContainer.Binder.ICrossContext.yml",
+  "IocContainer.Binder.IInstanceProvider": "IocContainer.Binder.IInstanceProvider.yml",
+  "IocContainer.Binder.IInstanceProvider.GetInstance(System.Type)": "IocContainer.Binder.IInstanceProvider.yml",
+  "IocContainer.Binder.IInstanceProvider.GetInstance``1": "IocContainer.Binder.IInstanceProvider.yml"
+}

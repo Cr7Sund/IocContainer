@@ -4,7 +4,8 @@ using System.Collections;
 using Binder = IocContainer.Binder.Binder;
 namespace IocContainer.Binder
 {
-    public class InjectorReflectionBinder : Binder, IReflectionBinder
+
+    internal class InjectorReflectionBinder : Binder, IReflectionBinder
     {
         public IReflectedClass Get<T>()
         {
@@ -42,7 +43,7 @@ namespace IocContainer.Binder
             var constructor = FindPreferredConstructor(type);
             if (constructor == null)
             {
-                return ;
+                return;
                 // throw new MyException("The reflector requires concrete classes.\nType " + type.Name + " has no constructor. Is it an interface?", ReflectionExceptionType.CANNOT_REFLECT_INTERFACE);
             }
 
@@ -59,7 +60,7 @@ namespace IocContainer.Binder
                                           BindingFlags.InvokeMethod);
             for (int i = 0; i < methods.Length; i++)
             {
-                MethodInfo method = methods[i];
+                var method = methods[i];
                 object[] tagged = method.GetCustomAttributes(typeof(PostConstruct), true);
                 if (tagged.Length > 0)
                 {
@@ -95,7 +96,7 @@ namespace IocContainer.Binder
         {
             for (int i = 0; i < parentFields.Length; i++)
             {
-                FieldInfo field = parentFields[i];
+                var field = parentFields[i];
                 if (!field.IsPrivate)
                 {
                     continue;
@@ -107,7 +108,7 @@ namespace IocContainer.Binder
                 }
 
                 if (field.FieldType.IsGenericType &&
-                 typeof(IEnumerable).IsAssignableFrom(field.FieldType))
+                    typeof(IEnumerable).IsAssignableFrom(field.FieldType))
                 {
                     continue;
                 }
@@ -130,14 +131,14 @@ namespace IocContainer.Binder
         {
             for (int i = 0; i < parentFields.Length; i++)
             {
-                FieldInfo field = parentFields[i];
+                var field = parentFields[i];
                 if (field.FieldType.IsArray)
                 {
                     continue;
                 }
 
                 if (field.FieldType.IsGenericType &&
-                 typeof(IEnumerable).IsAssignableFrom(field.FieldType))
+                    typeof(IEnumerable).IsAssignableFrom(field.FieldType))
                 {
                     continue;
                 }
