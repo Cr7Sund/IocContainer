@@ -1,0 +1,3 @@
+[submodule "Source/IocContainer_Unity"]
+	path = Source/IocContainer_Unity
+	url = https://github.com/Cr7Sund/IocContainer_Unity.git
