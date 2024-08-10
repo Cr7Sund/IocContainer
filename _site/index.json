@@ -1,4 +1,9 @@
 {
+  "README.html": {
+    "href": "README.html",
+    "title": "IocContainer",
+    "keywords": "IocContainer"
+  },
   "api/IocContainer.Binder.BinderExceptionType.html": {
     "href": "api/IocContainer.Binder.BinderExceptionType.html",
     "title": "Enum BinderExceptionType",

@@ -33,7 +33,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: IContext
     path: Container/Apis/IContext.cs
-    startLine: 8
+    startLine: 5
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -64,7 +64,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: AddContext
     path: Container/Apis/IContext.cs
-    startLine: 14
+    startLine: 11
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -96,7 +96,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: RemoveContext
     path: Container/Apis/IContext.cs
-    startLine: 20
+    startLine: 17
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -128,7 +128,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: RemoveComponents
     path: Container/Apis/IContext.cs
-    startLine: 25
+    startLine: 22
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -156,7 +156,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindInstance
     path: Container/Apis/IContext.cs
-    startLine: 32
+    startLine: 29
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -194,7 +194,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindInstance
     path: Container/Apis/IContext.cs
-    startLine: 40
+    startLine: 37
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -235,7 +235,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindInstanceAsCrossContext
     path: Container/Apis/IContext.cs
-    startLine: 47
+    startLine: 44
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -273,7 +273,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindInstanceAsCrossContext
     path: Container/Apis/IContext.cs
-    startLine: 55
+    startLine: 52
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -314,7 +314,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindSingleton
     path: Container/Apis/IContext.cs
-    startLine: 62
+    startLine: 59
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -350,7 +350,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindSingleton
     path: Container/Apis/IContext.cs
-    startLine: 70
+    startLine: 67
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -390,7 +390,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindCrossContextAndSingleton
     path: Container/Apis/IContext.cs
-    startLine: 77
+    startLine: 74
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -426,7 +426,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: BindCrossContextAndSingleton
     path: Container/Apis/IContext.cs
-    startLine: 85
+    startLine: 82
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -466,7 +466,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: Unbind
     path: Container/Apis/IContext.cs
-    startLine: 92
+    startLine: 89
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -504,7 +504,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: Inject
     path: Container/Apis/IContext.cs
-    startLine: 99
+    startLine: 96
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
@@ -542,7 +542,7 @@ items:
       repo: https://github.com/Cr7Sund/IocContainer.git
     id: Deject
     path: Container/Apis/IContext.cs
-    startLine: 105
+    startLine: 102
   assemblies:
   - IocContainer
   namespace: IocContainer.Binder
