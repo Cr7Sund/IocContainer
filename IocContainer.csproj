@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Binder\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cr7Sund.Utility" Version="1.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Injector\Apis\IInstanceProvider.cs" />
+    </ItemGroup>
+
+</Project>
