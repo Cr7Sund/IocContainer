@@ -1,5 +1,5 @@
 using System;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
     public interface IInstanceProvider
     {

@@ -1,17 +1,17 @@
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal class Binder : IBinder
     {
         /// A handler for resolving the nature of a binding during chained commands
         public delegate void BindingResolver(IBinding binding, object oldName = null);
-        protected Dictionary<object, List<IBinding>> _bindings; // object is implicitly equal to type
+        protected Dictionary<Type, List<IBinding>> _bindings; // object is implicitly equal to type
         protected BindingResolver _bindingResolverHandler;
 
 
         public Binder()
         {
-            _bindings = new Dictionary<object, List<IBinding>>();
+            _bindings = new Dictionary<Type, List<IBinding>>();
             _bindingResolverHandler = Resolver;
         }
 
@@ -21,7 +21,7 @@ namespace IocContainer.Binder
             return Bind(typeof(T));
         }
 
-        public IBinding Bind(object key)
+        public IBinding Bind(Type key)
         {
             IBinding binding;
             binding = GetRawBinding();
@@ -37,17 +37,7 @@ namespace IocContainer.Binder
         private void Resolver(IBinding binding, object oldName)
         {
             var key = binding.Key;
-            if (binding.KeyConstraint == BindingConstraintType.ONE)
-            {
-                ResolveBinding(binding, binding.Key.SingleValue);
-            }
-            else
-            {
-                for (int a = 0; a < key.Count; a++)
-                {
-                    ResolveBinding(binding, key[a]);
-                }
-            }
+            ResolveBinding(binding, binding.Key);
         }
 
         public IBinding GetBinding<T>(object name)
@@ -62,12 +52,12 @@ namespace IocContainer.Binder
             return GetBinding(key, null);
         }
 
-        public IBinding GetBinding(object key)
+        public IBinding GetBinding(Type key)
         {
             return GetBinding(key, null);
         }
 
-        public IBinding GetBinding(object key, object name)
+        public IBinding GetBinding(Type key, object name)
         {
             if (_bindings.TryGetValue(key, out var list))
             {
@@ -90,7 +80,7 @@ namespace IocContainer.Binder
             Unbind(typeof(T), null);
         }
 
-        public void Unbind(object key)
+        public void Unbind(Type key)
         {
             Unbind(key, null);
         }
@@ -106,13 +96,10 @@ namespace IocContainer.Binder
             {
                 return;
             }
-            for (int i = 0; i < binding.Key.Count; i++)
-            {
-                Unbind(binding.Key[i], binding.Name);
-            }
+            Unbind(binding.Key, binding.Name);
         }
 
-        public void Unbind(object key, object name)
+        public void Unbind(Type key, object name)
         {
             if (TryUnbindInternally(key, name, out var binding))
             {
@@ -126,7 +113,7 @@ namespace IocContainer.Binder
             {
                 return;
             }
-            object key = binding.Key.SingleValue;
+            var key = binding.Key;
             if (_bindings.TryGetValue(key, out var dict))
             {
                 for (int i = dict.Count - 1; i >= 0; i--)
@@ -151,7 +138,7 @@ namespace IocContainer.Binder
             }
         }
 
-        public virtual void ResolveBinding(IBinding binding, object key, object oldName = null)
+        public virtual void ResolveBinding(IBinding binding, Type key, object oldName = null)
         {
             object bindingName = binding.Name;
             object removeName = oldName == null ? BindingConst.NULLOIDNAME : oldName;
@@ -179,7 +166,7 @@ namespace IocContainer.Binder
                     {
                         if (!existingBinding.IsWeak)
                         {
-                            throw new Exception($"{BinderExceptionType.CONFLICT_IN_BINDER}: there exist same binding key: {binding.Key.SingleValue} name: {binding.Name} ");
+                            throw new Exception($"{BinderExceptionType.CONFLICT_IN_BINDER}: there exist same binding key: {binding.Key} name: {binding.Name} ");
                         }
 
                         list.RemoveAt(i);
@@ -257,7 +244,7 @@ namespace IocContainer.Binder
 
         }
 
-        public virtual bool TryUnbindInternally(object key, object name, out IBinding result)
+        public virtual bool TryUnbindInternally(Type key, object name, out IBinding result)
         {
             result = null;
 

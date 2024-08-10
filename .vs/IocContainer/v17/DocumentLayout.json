@@ -3,7 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7D7B83A-023F-447E-8AA5-C51DED762713}|..\\IocContainerTest\\IocContainerTest.csproj|c:\\users\\liux4\\riderprojects\\ioccontainertest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}|..\\Benchmark\\IocContainerBenchmark.csproj|c:\\users\\liux4\\riderprojects\\benchmark\\binderbenchmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\injector\\impls\\injectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:injector\\impls\\injectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\binder\\impls\\binder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:binder\\impls\\binder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\binder\\impls\\binding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:binder\\impls\\binding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\binder\\apis\\ibinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:binder\\apis\\ibinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\injector\\impls\\injectionbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:injector\\impls\\injectionbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\ioccontainer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:ioccontainer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}|..\\Benchmark\\IocContainerBenchmark.csproj|c:\\users\\liux4\\riderprojects\\benchmark\\ioccontainerbenchmark.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D7B83A-023F-447E-8AA5-C51DED762713}|..\\IocContainerTest\\IocContainerTest.csproj|c:\\users\\liux4\\riderprojects\\ioccontainertest\\testbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D7B83A-023F-447E-8AA5-C51DED762713}|..\\IocContainerTest\\IocContainerTest.csproj|c:\\users\\liux4\\riderprojects\\ioccontainertest\\testbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\container\\impls\\crosscontextinjectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:container\\impls\\crosscontextinjectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\injector\\reflector\\impls\\injectorreflectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:injector\\reflector\\impls\\injectorreflectionbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\binder\\apis\\ibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:binder\\apis\\ibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|c:\\users\\liux4\\riderprojects\\ioccontainer\\injector\\impls\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}|IocContainer.csproj|solutionrelative:injector\\impls\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}|..\\Benchmark\\Benchmark.csproj|c:\\users\\liux4\\riderprojects\\benchmark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +68,213 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InjectionBinder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\InjectionBinder.cs",
+              "RelativeDocumentMoniker": "Injector\\Impls\\InjectionBinder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\InjectionBinder.cs",
+              "RelativeToolTip": "Injector\\Impls\\InjectionBinder.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAMwDAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:23:14.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BinderBenchmark.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\BinderBenchmark.cs",
+              "RelativeDocumentMoniker": "..\\Benchmark\\BinderBenchmark.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\BinderBenchmark.cs",
+              "RelativeToolTip": "..\\Benchmark\\BinderBenchmark.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:50:22.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Binder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Impls\\Binder.cs",
+              "RelativeDocumentMoniker": "Binder\\Impls\\Binder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Impls\\Binder.cs",
+              "RelativeToolTip": "Binder\\Impls\\Binder.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwBsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:54:24.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InjectionBinding.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\InjectionBinding.cs",
+              "RelativeDocumentMoniker": "Injector\\Impls\\InjectionBinding.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\InjectionBinding.cs",
+              "RelativeToolTip": "Injector\\Impls\\InjectionBinding.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:22:37.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Binding.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Impls\\Binding.cs",
+              "RelativeDocumentMoniker": "Binder\\Impls\\Binding.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Impls\\Binding.cs",
+              "RelativeToolTip": "Binder\\Impls\\Binding.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAuwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:08:21.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBinding.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Apis\\IBinding.cs",
+              "RelativeDocumentMoniker": "Binder\\Apis\\IBinding.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Apis\\IBinding.cs",
+              "RelativeToolTip": "Binder\\Apis\\IBinding.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswBQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:12:53.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestBinding.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\TestBinding.cs",
+              "RelativeDocumentMoniker": "..\\IocContainerTest\\TestBinding.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\TestBinding.cs",
+              "RelativeToolTip": "..\\IocContainerTest\\TestBinding.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAEwDUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:26:25.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IocContainerBenchmark",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\IocContainerBenchmark.csproj",
+              "RelativeDocumentMoniker": "..\\Benchmark\\IocContainerBenchmark.csproj",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\IocContainerBenchmark.csproj",
+              "RelativeToolTip": "..\\Benchmark\\IocContainerBenchmark.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-10T09:49:09.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IocContainer",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\IocContainer.csproj",
+              "RelativeDocumentMoniker": "IocContainer.csproj",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\IocContainer.csproj",
+              "RelativeToolTip": "IocContainer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-10T09:53:40.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestBinder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\TestBinder.cs",
+              "RelativeDocumentMoniker": "..\\IocContainerTest\\TestBinder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\TestBinder.cs",
+              "RelativeToolTip": "..\\IocContainerTest\\TestBinder.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADgvyQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:26:02.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBinder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Apis\\IBinder.cs",
+              "RelativeDocumentMoniker": "Binder\\Apis\\IBinder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Binder\\Apis\\IBinder.cs",
+              "RelativeToolTip": "Binder\\Apis\\IBinder.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:16:16.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrossContextInjectionBinder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Container\\Impls\\CrossContextInjectionBinder.cs",
+              "RelativeDocumentMoniker": "Container\\Impls\\CrossContextInjectionBinder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Container\\Impls\\CrossContextInjectionBinder.cs",
+              "RelativeToolTip": "Container\\Impls\\CrossContextInjectionBinder.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwBgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:21:59.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Benchmark\\Program.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\Benchmark\\Program.cs",
+              "RelativeToolTip": "..\\Benchmark\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:48:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Injector.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\Injector.cs",
+              "RelativeDocumentMoniker": "Injector\\Impls\\Injector.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Impls\\Injector.cs",
+              "RelativeToolTip": "Injector\\Impls\\Injector.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAApwFUAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:04:57.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InjectorReflectionBinder.cs",
+              "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Reflector\\Impls\\InjectorReflectionBinder.cs",
+              "RelativeDocumentMoniker": "Injector\\Reflector\\Impls\\InjectorReflectionBinder.cs",
+              "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainer\\Injector\\Reflector\\Impls\\InjectorReflectionBinder.cs",
+              "RelativeToolTip": "Injector\\Reflector\\Impls\\InjectorReflectionBinder.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvxkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:04:42.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\IocContainerTest\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\liux4\\RiderProjects\\IocContainerTest\\UnitTest1.cs",
               "RelativeToolTip": "..\\IocContainerTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:16:14.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T15:16:14.258Z"
             }
           ]
         }

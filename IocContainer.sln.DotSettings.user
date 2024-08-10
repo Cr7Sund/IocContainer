@@ -5,4 +5,14 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3de6a41c_002D38f9_002D4daa_002Db87f_002Db42f9298acae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Users\liux4\RiderProjects\IocContainerTest" Presentation="&amp;lt;IocContainerTest&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=54335d5d_002Dce8f_002D4f3a_002D9394_002Dd62f4ee2db83/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RemoveContext_ShouldRemoveCrossContext #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F7D7B83A-023F-447E-8AA5-C51DED762713::net8.0::IocContainer.Tests.CrossContextTests.RemoveContext_ShouldRemoveCrossContext&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7881532_002Df626_002D4054_002D9789_002D37cfb75e9dc5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RemoveContext_ShouldRemoveCrossContext" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F7D7B83A-023F-447E-8AA5-C51DED762713::net8.0::IocContainer.Tests.CrossContextTests.RemoveContext_ShouldRemoveCrossContext&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=55d2179d_002D1a20_002D4730_002Da153_002De870838b795c_0023Test/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

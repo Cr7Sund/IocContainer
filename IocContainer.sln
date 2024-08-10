@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IocContainer", "IocContainer.csproj", "{8385D7DC-1EA1-4708-AEA4-05A9CE5CF310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainerTest", "..\IocContainerTest\IocContainerTest.csproj", "{F7D7B83A-023F-447E-8AA5-C51DED762713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IocContainerTest", "..\IocContainerTest\IocContainerTest.csproj", "{F7D7B83A-023F-447E-8AA5-C51DED762713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainerBenchmark", "..\Benchmark\IocContainerBenchmark.csproj", "{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{F7D7B83A-023F-447E-8AA5-C51DED762713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7D7B83A-023F-447E-8AA5-C51DED762713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7D7B83A-023F-447E-8AA5-C51DED762713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F8843A-7BE8-406E-ABC8-FC204D2EBD82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B7788F4-3F73-4351-8313-6DF458098F50}
 	EndGlobalSection
 EndGlobal

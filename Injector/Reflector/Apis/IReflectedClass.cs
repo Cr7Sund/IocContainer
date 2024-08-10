@@ -10,7 +10,7 @@
 
 using System;
 using System.Reflection;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface IReflectedClass

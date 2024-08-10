@@ -1,38 +1,22 @@
 using Cr7Sund.Utility;
-using IocContainer.Binder;
-namespace IocContainer.Binder
+using Cr7Sund.IocContainer;
+namespace Cr7Sund.IocContainer
 {
 
     internal class InjectionBinding : Binding, IInjectionBinding
     {
-
-
-        public InjectionBinding(Binder.BindingResolver resolver) : base(resolver)
+        public InjectionBinding(Binder.BindingResolver resolver):base(resolver)
         {
-            KeyConstraint = BindingConstraintType.MANY;
+            
         }
+
 
         private void ValidBindingType(Type objType)
         {
-            if (KeyConstraint == BindingConstraintType.ONE)
+            var keyType = Key;
+            if (!keyType.IsAssignableFrom(objType))
             {
-                var keyType = Key.SingleValue as Type;
-                if (!keyType.IsAssignableFrom(objType))
-                {
-                    throw new Exception($"{InjectionExceptionType.ILLEGAL_BINDING_VALUE}: Injection cannot bind a type ({objType}) that does not extend or implement the binding type ({keyType}).");
-                }
-            }
-            else
-            {
-                for (int i = 0; i < Key.Count; i++)
-                {
-                    var keyType = Key[i] as Type;
-                    if (!keyType.IsAssignableFrom(objType))
-                    {
-                        throw new MyException($" Injection cannot bind a type ({objType}) that does not extend or implement the binding type ({keyType}).", InjectionExceptionType.ILLEGAL_BINDING_VALUE);
-                    }
-                }
-
+                throw new Exception($"{InjectionExceptionType.ILLEGAL_BINDING_VALUE}: Injection cannot bind a type ({objType}) that does not extend or implement the binding type ({keyType}).");
             }
         }
 

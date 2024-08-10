@@ -1,5 +1,5 @@
 ﻿using Cr7Sund.Utility;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
     internal abstract class CrossContext : Context, ICrossContext
     {
@@ -14,11 +14,11 @@ namespace IocContainer.Binder
         }
 
 
-        public CrossContext() : base()
+        protected override void Init()
         {
+            _contexts = new List<IContext>();
             _crossContextInjectionBinder = new CrossContextInjectionBinder();
         }
-
 
         public sealed override void AddContext(IContext context)
         {
@@ -58,6 +58,7 @@ namespace IocContainer.Binder
             {
                 // since cross context is only from unique context;
                 childContextBinder.CrossContextBinder.RemoveAll();
+                childContextBinder.CrossContextBinder = null;
             }
         }
 

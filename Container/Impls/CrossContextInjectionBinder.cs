@@ -1,6 +1,6 @@
 using System;
-using IocContainer.Binder;
-namespace IocContainer.Binder
+using Cr7Sund.IocContainer;
+namespace Cr7Sund.IocContainer
 {
 
     internal class CrossContextInjectionBinder : InjectionBinder, ICrossContextInjectionBinder
@@ -22,7 +22,7 @@ namespace IocContainer.Binder
             return binding;
         }
 
-        public override void ResolveBinding(IBinding binding, object key, object oldName = null)
+        public override void ResolveBinding(IBinding binding, Type key, object oldName = null)
         {
             // Decide whether to resolve locally or not
             // If the binding is cross-context, we need to resolve it in cross-context
@@ -48,7 +48,7 @@ namespace IocContainer.Binder
             }
         }
 
-        public override bool TryUnbindInternally(object key, object name, out IBinding result)
+        public override bool TryUnbindInternally(Type key, object name, out IBinding result)
         {
             if (base.TryUnbindInternally(key, name, out result))
             {

@@ -1,14 +1,13 @@
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface IBinding : IDisposable
     {
         ///<summary> Get the binding's key </summary>
-        ISemiBinding Key { get; }
+        Type Key { get; }
         object Name { get; }
         ISemiBinding Value { get; }
 
-        BindingConstraintType KeyConstraint { get; }
 
         /// <summary> Get whether the binding is weak, default false </summary>
         bool IsWeak { get; }
@@ -19,7 +18,7 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Tie this binding to a key, such as object, string, enum
         /// </summary>
-        IBinding Bind(object type);
+        IBinding Bind(Type type);
         /// <summary>
         ///     Set the Binding's value to a value, such as a string or class instance
         /// </summary>

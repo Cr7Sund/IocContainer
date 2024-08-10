@@ -1,4 +1,4 @@
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface IBinder : IDisposable
@@ -10,7 +10,7 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Bind a Binding Key to a object
         /// </summary>
-        IBinding Bind(object key);
+        IBinding Bind(Type key);
 
         /// <summary>
         ///     Retrieve a binding based on the provided Type
@@ -26,12 +26,12 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Retrieve a binding based on the provided key
         /// </summary>
-        IBinding GetBinding(object key);
+        IBinding GetBinding(Type key);
 
         /// <summary>
         ///     Retrieve a binding based on the provided key
         /// </summary>
-        IBinding GetBinding(object key, object name);
+        IBinding GetBinding(Type key, object name);
 
         /// <summary>
         ///     Remove a binding based on the provided Key (generic)
@@ -44,7 +44,7 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Remove a binding based on the provided Key (generic)
         /// </summary>
-        void Unbind(object key);
+        void Unbind(Type key);
 
         /// <summary> Remove the provided binding from the Binder </summary>
         void Unbind(IBinding binding);
@@ -52,7 +52,7 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Remove a binding based on the provided Key (generic)
         /// </summary>
-        void Unbind(object key, object name);
+        void Unbind(Type key, object name);
 
         /// <summary> Remove a select value from the given binding </summary>
         void RemoveValue(IBinding binding, object value);
@@ -66,7 +66,7 @@ namespace IocContainer.Binder
         /// <summary>
         ///     Places individual Bindings into the bindings Dictionary as part of the resolving process
         /// </summary>
-        void ResolveBinding(IBinding binding, object key, object oldName);
+        void ResolveBinding(IBinding binding, Type key, object oldName);
 
         /// <summary>
         /// copy bindings from binder

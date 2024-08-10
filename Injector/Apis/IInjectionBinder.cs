@@ -1,5 +1,5 @@
 using Cr7Sund.Utility;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface IInjectionBinder : IBinder, IInstanceProvider

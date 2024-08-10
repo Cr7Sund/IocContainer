@@ -1,4 +1,4 @@
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface ICrossContextInjectionBinder : IInjectionBinder

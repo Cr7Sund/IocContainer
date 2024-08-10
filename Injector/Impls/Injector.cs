@@ -1,9 +1,9 @@
 using System;
 using System.Reflection;
 using System.Text;
-using IocContainer.Binder;
+using Cr7Sund.IocContainer;
 using Cr7Sund.Utility;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal class Injector : IInjector
@@ -51,8 +51,8 @@ namespace IocContainer.Binder
             {
                 var reflection = Reflector.Get(reflectionType);
                 // Actually we dont support construct inject
-                failIf(reflection == null, InjectionExceptionType.NULL_REFLECTION_INSTANTIATE, reflectionType, null);
-                failIf(reflection.Constructor == null, InjectionExceptionType.NULL_CONSTRUCTOR, reflectionType, null);
+                //failIf(reflection == null, InjectionExceptionType.NULL_REFLECTION_INSTANTIATE, reflectionType, null);
+                //failIf(reflection.Constructor == null, InjectionExceptionType.NULL_CONSTRUCTOR, reflectionType, null);
                 failIf(reflection.ConstructorParameterCount > 0, InjectionExceptionType.NONEMPTY_CONSTRUCTOR, reflectionType, null);
 
                 if (binding.Type == InjectionBindingType.POOL)
@@ -83,7 +83,7 @@ namespace IocContainer.Binder
                 }
             }
 
-            failIf(retVal == null, InjectionExceptionType.NULL_INSTANTIATE_RESULT, binding.Key.SingleValue as Type, null);
+            failIf(retVal == null, InjectionExceptionType.NULL_INSTANTIATE_RESULT, binding.Key, null);
 
             return retVal;
         }

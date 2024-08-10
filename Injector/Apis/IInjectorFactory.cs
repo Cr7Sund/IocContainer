@@ -6,7 +6,7 @@
  * @seeCr7Sund.Framework.Api.IInjector
  */
 
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal interface IInjectorFactory

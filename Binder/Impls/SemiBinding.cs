@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 using Cr7Sund.Utility;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
     internal class SemiBinding : ISemiBinding
     {

@@ -1,8 +1,8 @@
 using System.Reflection;
-using IocContainer.Binder;
+using Cr7Sund.IocContainer;
 using System.Collections;
-using Binder = IocContainer.Binder.Binder;
-namespace IocContainer.Binder
+using Binder = Cr7Sund.IocContainer.Binder;
+namespace Cr7Sund.IocContainer
 {
 
     internal class InjectorReflectionBinder : Binder, IReflectionBinder

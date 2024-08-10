@@ -1,10 +1,10 @@
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
 
     internal class Binding : IBinding
     {
         protected bool _isWeak;
-        protected ISemiBinding _key;
+        protected Type _key;
         protected object _name;
         protected ISemiBinding _value;
         public Binder.BindingResolver resolver;
@@ -14,10 +14,8 @@ namespace IocContainer.Binder
             this.resolver = resolver;
 
             _value = new SemiBinding();
-            _key = new SemiBinding();
 
             ValueConstraint = BindingConstraintType.ONE;
-            KeyConstraint = BindingConstraintType.ONE;
 
             Unique = true;
         }
@@ -42,18 +40,6 @@ namespace IocContainer.Binder
             }
         }
 
-        public BindingConstraintType KeyConstraint
-        {
-            get
-            {
-                return _key.Constraint;
-            }
-            set
-            {
-                _key.Constraint = value;
-            }
-        }
-
         public bool Unique
         {
             get
@@ -66,7 +52,7 @@ namespace IocContainer.Binder
             }
         }
 
-        public ISemiBinding Key
+        public Type Key
         {
             get
             {
@@ -102,17 +88,9 @@ namespace IocContainer.Binder
             return Bind(typeof(T));
         }
 
-        public virtual IBinding Bind(object key)
+        public virtual IBinding Bind(Type key)
         {
-            // if (MacroDefine.IsDebug)
-            // {
-            //     if (key.GetType().IsValueType)
-            //     {
-            //         throw new MyException($"{key} is not referenceType", BinderExceptionType.EXIST_BOXING);
-            //     }
-            // }
-
-            _key.Add(key);
+            _key = key;
 
             return this;
         }
@@ -164,7 +142,6 @@ namespace IocContainer.Binder
 
         public virtual void Dispose()
         {
-            _key.Dispose();
             _value.Dispose();
         }
         #endregion

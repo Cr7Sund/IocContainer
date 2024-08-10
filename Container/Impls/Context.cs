@@ -1,20 +1,18 @@
 ﻿using Cr7Sund.Utility;
-namespace IocContainer.Binder
+namespace Cr7Sund.IocContainer
 {
     internal abstract class Context : IContext
     {
-        private List<IContext> _contexts;
+        protected List<IContext> _contexts;
 
         public virtual IInjectionBinder InjectionBinder { get; private set; }
 
 
         public Context()
         {
-            _contexts = new List<IContext>();
-            InjectionBinder = new InjectionBinder();
+            Init();
         }
-
-
+        
         public virtual void AddContext(IContext context)
         {
             AssertUtil.IsFalse(_contexts.Contains(context));
@@ -22,8 +20,10 @@ namespace IocContainer.Binder
         }
         public virtual void RemoveContext(IContext context)
         {
-            AssertUtil.IsTrue(_contexts.Contains(context));
-            _contexts.Remove(context);
+            if (_contexts.Contains(context))
+            {
+                _contexts.Remove(context);
+            }
         }
 
         public virtual void Dispose()
@@ -34,8 +34,6 @@ namespace IocContainer.Binder
             InjectionBinder.Dispose();
             InjectionBinder = null;
         }
-
-        public abstract void RemoveComponents();
 
         #region  Injector Adapter
 
@@ -96,6 +94,12 @@ namespace IocContainer.Binder
         public object GetInstance(Type key)
         {
             return InjectionBinder.GetInstance(key);
+        }
+        
+        protected virtual void Init()
+        {
+            _contexts = new List<IContext>();
+            InjectionBinder = new InjectionBinder();
         }
 
         #endregion

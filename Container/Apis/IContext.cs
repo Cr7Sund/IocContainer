@@ -1,4 +1,4 @@
-﻿namespace IocContainer.Binder
+﻿namespace Cr7Sund.IocContainer
 {
     /// <summary>
     /// Represents a context for managing instances and dependencies.
@@ -17,10 +17,6 @@
         /// <param name="context">The context to remove.</param>
         void RemoveContext(IContext context);
 
-        /// <summary>
-        /// Removes all components from this context.
-        /// </summary>
-        void RemoveComponents();
 
         /// <summary>
         /// Binds an instance to a specific type.

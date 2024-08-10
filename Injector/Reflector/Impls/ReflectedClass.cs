@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
-using IocContainer.Binder;
-namespace IocContainer.Binder
+using Cr7Sund.IocContainer;
+namespace Cr7Sund.IocContainer
 {
 
     internal class ReflectedClass : IReflectedClass
